@@ -13,7 +13,17 @@
     },
     "categories": {
       "function": {
-        "patientMigration": {}
+        "patientMigration": {
+          "deploymentBucketName": "amplify-idg3-dev-6c08a-deployment",
+          "s3Key": "amplify-builds/patientMigration-487651656b7746614144-build.zip"
+        },
+        "idg3idgPortalLambdaLayer": {
+          "deploymentBucketName": "amplify-idg3-dev-6c08a-deployment",
+          "s3Key": "amplify-builds/idg3idgPortalLambdaLayer-LambdaLayerVersion196b717b-build.zip"
+        }
+      },
+      "api": {
+        "igdPortalRestApi": {}
       }
     }
   }
