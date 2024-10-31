@@ -10,6 +10,11 @@
       "StackName": "amplify-idg3-dev-2fc89",
       "StackId": "arn:aws:cloudformation:us-east-1:304634770878:stack/amplify-idg3-dev-2fc89/5a29bf70-97cd-11ef-931b-127b97cfe9d5",
       "AmplifyAppId": "d2vf5mvbqauabj"
+    },
+    "categories": {
+      "function": {
+        "patientMigration": {}
+      }
     }
   }
 }
