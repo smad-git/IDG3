@@ -7,8 +7,8 @@
     "framework": "react",
     "config": {
       "SourceDir": "idg-portal-ui/src",
-      "DistributionDir": "idg-portal-ui/build",
-      "BuildCommand": "npm run build",
+      "DistributionDir": "idg--portal-ui/build",
+      "BuildCommand": "npm ci",
       "StartCommand": "npm run start"
     }
   },
