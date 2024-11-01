@@ -22,27 +22,27 @@ const PortalLayout: React.FC<PortalLayoutProps> = ({
   const [openDrawer, setOpenDrawer] = useState(false);
 
   useEffect(() => {
-    getTodo()
+    //getTodo()
   }, [])
 
   const toggleDrawer = () => {
     setOpenDrawer(!openDrawer);
   };
 
-  async function getTodo() {
-    try {
-      const restOperation = get({ 
-        apiName: 'idgApi',
-        path: '/patientMigration' 
-      });
-      const response = await restOperation.response;
-      console.log('GET call succeeded: ', response);
-    } catch (e: unknown) {
-      if (e instanceof ApiError) {
-        console.log(e.response?.body)
-      }
-    }
-  }
+  // async function getTodo() {
+  //   try {
+  //     const restOperation = get({ 
+  //       apiName: 'idgApi',
+  //       path: '/patientMigration' 
+  //     });
+  //     const response = await restOperation.response;
+  //     console.log('GET call succeeded: ', response);
+  //   } catch (e: unknown) {
+  //     if (e instanceof ApiError) {
+  //       console.log(e.response?.body)
+  //     }
+  //   }
+  // }
 
   return (
     <ThemeContextProvider>
