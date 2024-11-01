@@ -6,10 +6,10 @@
   "javascript": {
     "framework": "react",
     "config": {
-      "SourceDir": "idg-portal-ui/src",
-      "DistributionDir": "idg--portal-ui/build",
-      "BuildCommand": "npm ci",
-      "StartCommand": "npm run start"
+      "SourceDir": "src",
+      "DistributionDir": "build",
+      "BuildCommand": "npm.cmd run-script build",
+      "StartCommand": "npm.cmd run-script start"
     }
   },
   "providers": [

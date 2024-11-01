@@ -8,6 +8,10 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { LoadingProvider } from './components/contexts/LoadingContext';
+import { Amplify } from 'aws-amplify';
+import awsconfig from './aws-exports';
+
+Amplify.configure(awsconfig);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

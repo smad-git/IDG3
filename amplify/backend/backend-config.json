@@ -8,7 +8,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "patientMigration"
+          "resourceName": "idgPatientMigration"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -21,11 +21,45 @@
       "providerPlugin": "awscloudformation",
       "service": "LambdaLayer"
     },
-    "patientMigration": {
+    "idgPatientMigration": {
       "build": true,
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_idg3idgLambdaLayer_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "idg3idgLambdaLayer"
+        }
+      ]
+    },
+    "AMPLIFY_function_idg3idgLambdaLayer_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "idg3idgLambdaLayer"
+        }
+      ]
+    },
+    "AMPLIFY_function_idgPatientMigration_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "idgPatientMigration"
+        }
+      ]
+    },
+    "AMPLIFY_function_idgPatientMigration_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "idgPatientMigration"
+        }
+      ]
     }
   }
 }
