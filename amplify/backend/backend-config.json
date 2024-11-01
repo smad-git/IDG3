@@ -1,1 +1,50 @@
-{}
+{
+  "api": {},
+  "function": {
+    "idg3devlambdaLayer": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer"
+    },
+    "patientMigration": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_idg3devlambdaLayer_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "idg3devlambdaLayer"
+        }
+      ]
+    },
+    "AMPLIFY_function_idg3devlambdaLayer_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "idg3devlambdaLayer"
+        }
+      ]
+    },
+    "AMPLIFY_function_patientMigration_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "patientMigration"
+        }
+      ]
+    },
+    "AMPLIFY_function_patientMigration_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "patientMigration"
+        }
+      ]
+    }
+  }
+}

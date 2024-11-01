@@ -10,6 +10,18 @@
       "StackName": "amplify-idg3dev-dev-dccb7",
       "StackId": "arn:aws:cloudformation:us-east-1:304634770878:stack/amplify-idg3dev-dev-dccb7/02d210c0-9858-11ef-aa7f-120f5984f7db",
       "AmplifyAppId": "d2mz4ptwn8dojj"
+    },
+    "categories": {
+      "function": {
+        "patientMigration": {
+          "deploymentBucketName": "amplify-idg3dev-dev-dccb7-deployment",
+          "s3Key": "amplify-builds/patientMigration-626d4d5136307762354f-build.zip"
+        },
+        "idg3devlambdaLayer": {
+          "deploymentBucketName": "amplify-idg3dev-dev-dccb7-deployment",
+          "s3Key": "amplify-builds/idg3devlambdaLayer-LambdaLayerVersionc2ee1e42-build.zip"
+        }
+      }
     }
   }
 }
