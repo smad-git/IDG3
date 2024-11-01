@@ -1,5 +1,20 @@
 {
-  "api": {},
+  "api": {
+    "idg3Api": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "patientMigration"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "function": {
     "idg3devlambdaLayer": {
       "build": true,

@@ -21,6 +21,9 @@
           "deploymentBucketName": "amplify-idg3dev-dev-dccb7-deployment",
           "s3Key": "amplify-builds/idg3devlambdaLayer-LambdaLayerVersionc2ee1e42-build.zip"
         }
+      },
+      "api": {
+        "idg3Api": {}
       }
     }
   }
