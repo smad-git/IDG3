@@ -1,30 +1,15 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-idg3-dev-75056-authRole",
-      "UnauthRoleArn": "arn:aws:iam::304634770878:role/amplify-idg3-dev-75056-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::304634770878:role/amplify-idg3-dev-75056-authRole",
+      "AuthRoleName": "amplify-idg3dev-dev-458bf-authRole",
+      "UnauthRoleArn": "arn:aws:iam::304634770878:role/amplify-idg3dev-dev-458bf-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::304634770878:role/amplify-idg3dev-dev-458bf-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-idg3-dev-75056-deployment",
-      "UnauthRoleName": "amplify-idg3-dev-75056-unauthRole",
-      "StackName": "amplify-idg3-dev-75056",
-      "StackId": "arn:aws:cloudformation:us-east-1:304634770878:stack/amplify-idg3-dev-75056/b663b6d0-97f3-11ef-9959-0affc0d36e9d",
-      "AmplifyAppId": "deoz39dv2x97h"
-    },
-    "categories": {
-      "function": {
-        "idgPatientMigration": {
-          "deploymentBucketName": "amplify-idg3-dev-75056-deployment",
-          "s3Key": "amplify-builds/idgPatientMigration-33527746563572755438-build.zip"
-        },
-        "idg3idgLambdaLayer": {
-          "deploymentBucketName": "amplify-idg3-dev-75056-deployment",
-          "s3Key": "amplify-builds/idg3idgLambdaLayer-LambdaLayerVersion0dc5e8e2-build.zip"
-        }
-      },
-      "api": {
-        "idgApi": {}
-      }
+      "DeploymentBucketName": "amplify-idg3dev-dev-458bf-deployment",
+      "UnauthRoleName": "amplify-idg3dev-dev-458bf-unauthRole",
+      "StackName": "amplify-idg3dev-dev-458bf",
+      "StackId": "arn:aws:cloudformation:us-east-1:304634770878:stack/amplify-idg3dev-dev-458bf/5b6a3070-9856-11ef-90bc-0ef9dbf96a71",
+      "AmplifyAppId": "d103p223t6k3jf"
     }
   }
 }
