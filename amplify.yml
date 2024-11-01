@@ -1,10 +1,14 @@
 version: 1
 backend:
   phases:
+    preBuild:
+      commands:
+        - echo "Installing dependencies"
+        - pip install --upgrade pip
     build:
       commands:
         - "Execute Amplify CLI with the helper script repo"
-        - amplifyPush --simple
+        - amplify push --yes
 frontend:
   phases:
     preBuild:
