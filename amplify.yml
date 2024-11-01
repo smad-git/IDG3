@@ -4,6 +4,7 @@ backend:
     build:
       commands:
         - echo "Running backend build"
+        - amplifyPush --simple
 frontend:
   phases:
     preBuild:
