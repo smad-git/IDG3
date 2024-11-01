@@ -4,7 +4,8 @@ backend:
     build:
       commands:
         - echo "# Execute Amplify CLI with the helper script"
-        - amplify push --simple
+        - envCache --set stackInfo ""
+        - amplifyPush --simple
 frontend:
   phases:
     preBuild:
