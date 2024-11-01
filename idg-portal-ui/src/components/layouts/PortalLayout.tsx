@@ -7,6 +7,7 @@ import Header from '../main/Header';
 import Body from '../main/Body';
 import PortalBodyLayout, { DrawerItem } from './PortalBodyLayout';
 import {  ApiError, get, isCancelError } from 'aws-amplify/api';
+import awsmobile from '../../aws-exports';
 
 export interface PortalLayoutProps {
   children: React.ReactNode;
@@ -31,6 +32,7 @@ const PortalLayout: React.FC<PortalLayoutProps> = ({
 
   async function getTodo() {
     try {
+      console.log('API Gateway endpoint:', awsmobile.aws_cloud_logic_custom[0].endpoint);
       const restOperation = get({ 
         apiName: 'idg3Api',
         path: '/patientMigration' 
