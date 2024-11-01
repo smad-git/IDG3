@@ -3,7 +3,7 @@ backend:
   phases:
     build:
       commands:
-        - echo "# Execute Amplify CLI with the helper script----"
+        - "Execute Amplify CLI with the helper script repo"
         - amplifyPush --simple
 frontend:
   phases:
