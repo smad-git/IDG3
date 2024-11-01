@@ -4,13 +4,11 @@ backend:
     preBuild:
       commands:
         - echo "Installing dependencies"
-        - apt-get update
-        - apt-get install -y python3.12 python3-pip  # Install Python and pip
-        - python3.12 -m pip install --upgrade pip
+        - 
     build:
       commands:
-        - echo "Execute Amplify CLI with the helper script repo"
-        - amplify push --yes
+        - "Execute Amplify CLI with the helper script repo"
+        - amplifyPush --simple
 frontend:
   phases:
     preBuild:
