@@ -32,9 +32,8 @@ const PortalLayout: React.FC<PortalLayoutProps> = ({
 
   async function getTodo() {
     try {
-      console.log('API Gateway endpoint:', awsmobile.aws_cloud_logic_custom[0].endpoint);
       const restOperation = get({ 
-        apiName: 'idg3Api',
+        apiName: `${awsmobile.aws_cloud_logic_custom[0].name}`,
         path: '/patientMigration' 
       });
       const response = await restOperation.response;

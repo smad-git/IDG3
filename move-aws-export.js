@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const srcPath = path.join(__dirname, 'src/aws-exports.js');
-const destPath = path.join(__dirname, 'idg-portal-ui/aws-exports.js');
+const destPath = path.join(__dirname, 'idg-portal-ui/src/aws-exports.js');
 
 fs.copyFile(srcPath, destPath, (err) => {
     if (err) throw err;
@@ -10,7 +10,7 @@ fs.copyFile(srcPath, destPath, (err) => {
 });
 
 const srcPath1 = path.join(__dirname, 'src/amplifyconfiguration.json');
-const destPath1 = path.join(__dirname, 'idg-portal-ui/amplifyconfiguration.json');
+const destPath1 = path.join(__dirname, 'idg-portal-ui/src/amplifyconfiguration.json');
 
 fs.copyFile(srcPath1, destPath1, (err) => {
     if (err) throw err;
