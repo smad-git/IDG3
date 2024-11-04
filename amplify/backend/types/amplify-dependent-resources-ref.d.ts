@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
   "api": {
-    "idg3Api": {
+    "idg3api": {
       "ApiId": "string",
       "ApiName": "string",
       "RootUrl": "string"
@@ -11,6 +11,13 @@ export type AmplifyDependentResourcesAttributes = {
       "Arn": "string"
     },
     "patientMigration": {
+      "Arn": "string",
+      "LambdaExecutionRole": "string",
+      "LambdaExecutionRoleArn": "string",
+      "Name": "string",
+      "Region": "string"
+    },
+    "patientSearch": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",

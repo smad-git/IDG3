@@ -1,0 +1,1001 @@
+id,encounter_id,medication_name,dosage,start_date,end_date
+1063,2542,Amoxicillin,1 mg,2012-03-24,1986-01-23
+7104,5020,Paracetamol,250 mg - Often used for medications like Azithromycin.,1989-02-05,1985-07-30
+7090,8307,Amoxicillin,250 mg - Often used for medications like Azithromycin.,2017-12-08,1982-11-17
+849,2477,Metformin,250 mg - Often used for medications like Azithromycin.,2016-08-26,1972-10-24
+2631,6245,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1985-11-11,2003-09-12
+1033,8982,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,1994-03-04,1977-09-27
+8312,2456,Metformin,1 mg,1979-11-08,1990-12-15
+2866,6577,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1991-06-30,2022-11-25
+6676,9459,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2004-05-26,1991-10-17
+8659,1639,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,1993-09-11,1990-09-01
+7214,2069,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,2010-09-15,2003-04-12
+862,2924,Cetirizine,1 mg,2018-03-15,2020-01-17
+209,3118,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1972-03-08,1993-12-07
+7476,5330,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2012-03-02,2004-05-18
+4650,8868,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,1983-07-31,1992-12-13
+3783,9737,Simvastatin,250 mg - Often used for medications like Azithromycin.,1995-06-14,1973-04-28
+1803,1261,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1989-01-07,2008-08-18
+3087,989,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,1973-03-12,2015-09-04
+4100,2287,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,2020-06-12,2008-02-13
+5023,6228,Ibuprofen,1 mg,2016-01-30,1974-01-24
+9568,3557,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2024-04-08,2021-03-05
+9706,9737,Metformin,1 mg,2019-09-12,2015-04-01
+4326,4642,Metformin,250 mg - Often used for medications like Azithromycin.,1987-06-25,1972-11-10
+16,5628,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1977-03-27,2009-07-14
+575,8150,Paracetamol,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2001-12-27,2002-12-02
+7360,1054,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2011-11-19,2008-02-17
+1193,9572,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,2011-04-01,1997-07-13
+6491,8256,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,2013-08-03,2015-11-01
+4772,3547,Paracetamol,250 mg - Often used for medications like Azithromycin.,1978-06-24,1977-09-19
+1894,8982,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1989-04-22,2001-10-30
+7564,3118,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1987-10-23,1993-11-12
+5047,6577,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1984-04-14,1972-12-17
+9937,1371,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2022-11-13,2017-05-13
+1696,6841,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1992-01-26,1997-06-19
+6946,3026,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1999-04-05,1975-06-11
+8405,3056,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1978-09-08,2023-02-28
+6264,461,Paracetamol,1 mg,2021-08-08,1996-06-30
+3626,453,Amoxicillin,1 mg,2007-08-26,1998-03-07
+3455,7161,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,2008-02-26,2009-03-25
+4979,2428,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1971-01-10,2018-07-27
+534,9955,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2023-04-28,1994-07-01
+2013,6554,Amoxicillin,1 mg,1973-09-22,1989-02-26
+537,3243,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,1988-02-18,1984-07-25
+5408,7870,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,1993-04-17,2021-09-26
+3459,2873,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,1976-10-12,1976-04-19
+4845,6282,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,2009-02-12,1987-03-11
+1169,4193,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2020-06-04,1978-07-15
+5739,1507,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2016-04-01,1992-10-16
+7384,2873,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2014-05-07,2000-06-15
+5512,6466,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1988-10-22,2012-01-05
+1459,148,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2024-07-01,2020-03-26
+8625,5628,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,1988-12-08,1974-07-20
+5066,5777,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2018-11-04,2017-12-30
+1740,5661,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,2007-02-02,1974-08-01
+3500,502,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1987-06-17,2004-12-24
+8725,8382,Metformin,500 mg - Common for antibiotics like Amoxicillin.,2001-09-03,2000-12-27
+926,6576,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2018-03-10,1979-03-07
+6632,8761,Metformin,500 mg - Common for antibiotics like Amoxicillin.,1983-06-19,2022-05-06
+6757,1762,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1984-04-29,2014-10-11
+2019,1503,Ibuprofen,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2009-01-28,2012-06-25
+9969,8394,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2009-04-02,1986-07-07
+131,2932,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,2023-12-11,1999-01-16
+1532,4485,Ibuprofen,250 mg - Often used for medications like Azithromycin.,2000-05-14,1980-12-16
+4699,2203,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2010-06-03,1998-12-29
+381,4642,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,2021-09-15,2010-03-03
+1928,4377,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1991-05-12,1990-08-07
+9332,3064,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2010-01-11,2022-03-30
+1878,7618,Simvastatin,250 mg - Often used for medications like Azithromycin.,1979-08-28,1999-02-17
+617,8761,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2010-01-26,1973-09-22
+410,5983,Paracetamol,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1973-09-17,1982-01-28
+2704,7709,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,1991-10-30,1995-10-15
+1807,4809,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2012-10-07,1990-07-14
+5549,6449,Cetirizine,1 mg,1980-06-26,1984-10-23
+2089,810,Metformin,250 mg - Often used for medications like Azithromycin.,2018-07-17,2001-06-15
+5141,550,Paracetamol,250 mg - Often used for medications like Azithromycin.,2002-06-03,2024-03-28
+4078,4254,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2001-05-31,2013-10-09
+9730,5085,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,2008-02-05,2023-03-22
+1488,2913,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,2013-05-05,1994-12-15
+66,4173,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1988-01-30,2007-09-29
+134,6163,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2017-07-08,2021-10-04
+7397,3424,Amoxicillin,1 mg,2007-02-22,1986-11-29
+5808,5835,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1983-01-23,1977-09-01
+1192,8681,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,1992-12-19,1981-09-12
+9048,5845,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1987-03-17,1971-09-08
+9809,8127,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,2007-01-08,1978-12-13
+4985,6576,Cetirizine,1 mg,1987-05-13,1996-10-16
+7242,6784,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,1973-10-12,1981-12-10
+3872,5453,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,2004-11-22,1993-08-03
+4398,3118,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2017-12-25,2011-12-09
+5622,7966,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,2008-08-23,1975-02-18
+4665,6721,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,2007-08-07,1989-01-03
+2922,9737,Metformin,1 mg,2008-12-01,2015-09-22
+9430,3124,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2000-01-09,1995-05-27
+9060,3243,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1979-08-01,2014-02-02
+9339,4790,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,1970-03-21,2012-09-18
+7062,8393,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,2020-06-04,2019-08-01
+1957,8114,Ibuprofen,1 mg,1990-08-25,2012-01-30
+8308,2850,Simvastatin,250 mg - Often used for medications like Azithromycin.,1971-02-17,1985-04-12
+9728,5180,Cetirizine,1 mg,1988-11-13,1973-02-26
+6365,931,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,1981-05-25,1973-01-22
+2005,6621,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2017-04-02,1970-03-03
+6453,4353,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,2008-12-02,2014-08-01
+1134,4322,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1999-02-18,1979-10-22
+8229,7525,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2024-08-13,1988-12-14
+6907,5777,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2000-03-18,1993-07-28
+2284,810,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1977-01-29,2001-10-21
+1212,603,Amoxicillin,250 mg - Often used for medications like Azithromycin.,1979-03-17,2000-08-24
+4107,8413,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1995-12-29,1977-07-29
+7399,2939,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1978-08-19,1988-05-15
+671,8503,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,1976-08-19,2002-04-05
+1351,2316,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1997-12-12,1973-10-20
+8721,5898,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2017-09-07,1983-12-23
+608,9766,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1991-05-06,2022-02-19
+7316,7457,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,2012-02-08,1991-07-17
+5729,4581,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2009-10-10,2000-09-02
+9363,848,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2011-06-16,2021-08-05
+8152,2932,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1984-03-09,1973-05-15
+9397,148,Ibuprofen,1 mg,2023-12-26,2004-03-05
+8298,2368,Simvastatin,250 mg - Often used for medications like Azithromycin.,2020-12-20,1985-04-05
+6334,538,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,1973-06-20,1999-03-25
+664,7161,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1993-08-26,1977-11-25
+2465,1812,Paracetamol,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1986-04-16,1972-10-25
+72,1235,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2014-04-19,2006-02-18
+6622,1507,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2002-04-09,2022-07-06
+620,4581,Metformin,500 mg - Common for antibiotics like Amoxicillin.,2019-10-21,2020-10-14
+6189,873,Amoxicillin,250 mg - Often used for medications like Azithromycin.,1997-11-05,1981-01-09
+1881,2112,Metformin,500 mg - Common for antibiotics like Amoxicillin.,1990-01-30,1995-01-16
+9782,940,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1971-05-16,2013-02-19
+5938,403,Paracetamol,250 mg - Often used for medications like Azithromycin.,1976-04-20,2023-01-03
+3297,2924,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2016-04-29,2017-02-02
+8247,733,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1984-08-06,1978-07-03
+1729,9996,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1970-03-11,1992-12-31
+8176,5333,Metformin,500 mg - Common for antibiotics like Amoxicillin.,1981-05-01,2011-10-15
+2379,7847,Metformin,1 mg,1970-10-15,1998-10-08
+1611,9403,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,2015-04-09,1980-05-28
+9605,9421,Ibuprofen,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1977-04-13,2010-04-26
+7153,9075,Paracetamol,1 mg,2000-11-30,2005-05-06
+5310,7716,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,2021-09-13,2013-09-24
+3270,2356,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2014-06-23,1971-06-08
+3831,5333,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,1980-02-18,2006-02-20
+1829,2939,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,2006-12-02,2023-04-08
+1080,6984,Cetirizine,250 mg - Often used for medications like Azithromycin.,1978-11-01,1985-01-30
+5231,9472,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,2002-07-26,1982-06-04
+2574,8296,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2016-02-29,1976-04-20
+3666,8043,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1997-04-08,2009-05-05
+1485,7744,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2018-10-05,1980-09-22
+3293,7282,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2016-08-25,1971-12-08
+5088,8303,Ibuprofen,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1997-05-08,1988-08-03
+7252,3834,Paracetamol,1 mg,2019-10-19,1996-10-05
+5945,9428,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2006-05-31,2020-09-26
+8443,6379,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1987-04-30,2006-12-20
+4582,6493,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1992-07-20,1998-05-17
+4209,2968,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1997-11-14,1980-08-09
+7941,9255,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2003-10-08,2014-04-21
+5900,5476,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2004-07-28,2013-03-11
+3269,2736,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1972-07-31,2012-05-11
+1661,6216,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,2019-11-13,1990-11-01
+3123,3064,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,1999-02-23,1991-06-15
+3519,7744,Amoxicillin,1 mg,2000-10-16,1974-06-30
+6497,1656,Metformin,1 mg,1982-05-16,1973-07-03
+7298,5972,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,1986-08-23,1997-11-19
+3277,8292,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1975-10-06,2023-12-10
+1053,7127,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1977-02-17,2007-04-01
+7866,4581,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,1971-10-15,1991-06-02
+3873,3228,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,2017-01-10,1972-05-28
+9557,7862,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,2000-11-01,1988-10-08
+836,2994,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2009-12-19,1974-03-30
+7024,931,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2005-02-17,1995-10-19
+2882,1112,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2016-01-07,2002-02-28
+3812,5878,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,2017-10-28,2010-06-11
+7904,7709,Metformin,1 mg,1970-04-08,1991-03-22
+4118,6634,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,1975-06-08,1984-09-03
+9862,5305,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1998-10-26,1980-12-21
+7085,5085,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1992-04-18,2006-12-24
+8073,6474,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,1991-11-29,2020-12-03
+3987,6784,Simvastatin,1 mg,1973-07-25,2013-10-22
+1736,4732,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,2011-02-07,2023-12-20
+6855,9018,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2006-03-15,1997-05-13
+7960,3275,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1987-02-03,2006-08-25
+7950,8394,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2024-06-28,1976-09-24
+7294,2591,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,2011-11-03,2020-10-04
+4329,7441,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,2020-04-08,2024-09-06
+309,21,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,1979-03-08,2009-10-31
+5303,7023,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2013-01-09,2005-11-24
+2854,1432,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,2005-07-07,1987-08-25
+9235,7529,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2002-12-14,2014-01-01
+2568,5245,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,2002-10-05,2000-12-16
+4752,9491,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2013-08-14,2012-02-03
+1,5953,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2008-03-06,1978-07-06
+6394,8851,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2017-04-27,2012-12-30
+4784,2725,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2015-08-26,1980-07-02
+2967,5953,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1994-07-26,1993-09-25
+7270,8827,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1985-08-21,2014-06-28
+4302,8114,Ibuprofen,1 mg,2002-07-15,2019-11-21
+5672,9215,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1972-03-24,1994-06-23
+8466,1780,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,1977-06-18,2007-03-24
+1253,8130,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,2018-06-14,2009-10-20
+6837,6391,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,2004-05-03,1985-07-01
+2593,2299,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2003-06-04,1994-05-31
+6939,6488,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1992-12-14,1997-01-16
+6854,7808,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1988-09-30,1978-06-17
+4497,9459,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1978-07-29,1971-04-19
+6990,7862,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1976-01-13,1994-01-15
+5203,873,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,1978-09-22,1993-07-29
+5643,1261,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2020-11-15,2016-12-31
+6015,1569,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1982-07-12,1989-07-22
+3743,3800,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,2022-01-28,1991-01-13
+6356,4732,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2014-08-16,1977-03-18
+5593,502,Cetirizine,1 mg,2023-01-23,1975-11-16
+1199,4236,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1989-10-13,2014-07-23
+1131,8982,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,1996-01-14,2018-06-30
+4212,6488,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,1996-06-07,1979-05-29
+4900,2368,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1975-01-23,1983-10-27
+3036,6216,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2005-07-08,2014-10-27
+5288,7655,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1986-10-07,2012-12-13
+6853,4733,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1972-04-04,1979-07-31
+9530,1789,Metformin,250 mg - Often used for medications like Azithromycin.,1984-03-18,1985-10-05
+9119,6376,Ibuprofen,1 mg,1976-07-23,2002-08-07
+8034,9255,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2024-10-28,1984-02-12
+9769,5799,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1981-05-14,2020-11-12
+3910,1795,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,2007-12-09,1995-10-01
+7661,8010,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1984-02-22,1978-06-24
+7793,842,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1999-07-26,2019-09-19
+9797,1323,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1983-12-09,2017-04-03
+6671,5571,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2008-07-24,2008-09-15
+3916,2699,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,1990-08-12,1985-09-23
+9656,7709,Paracetamol,1 mg,1978-07-30,1974-08-09
+9956,9480,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1994-06-15,2009-04-25
+8499,6379,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1982-04-18,1976-06-03
+9351,235,Paracetamol,1 mg,2020-05-29,2005-06-25
+1971,1789,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1975-05-11,1997-12-05
+1724,4846,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,1983-10-14,1988-09-09
+89,940,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1978-01-01,2005-09-04
+8186,3045,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2024-05-10,1978-05-15
+2643,227,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1992-02-10,1985-11-24
+5285,1261,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1977-04-07,2000-01-31
+1229,6554,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2008-10-26,2019-03-28
+3707,1084,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1985-05-10,1971-03-13
+8177,4322,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1990-04-06,1994-06-01
+9923,9255,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,1998-02-08,2010-10-03
+2111,264,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,2004-05-24,1995-01-09
+3924,4126,Paracetamol,1 mg,1990-05-28,1971-06-16
+4381,8681,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1982-06-21,2013-03-08
+7093,7473,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1982-01-23,2002-10-13
+7974,4126,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1996-11-30,2008-09-30
+2202,5661,Ibuprofen,250 mg - Often used for medications like Azithromycin.,2000-11-07,1981-12-16
+2945,5453,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1981-11-06,1977-10-28
+4343,7741,Simvastatin,250 mg - Often used for medications like Azithromycin.,1993-12-09,1988-09-29
+7241,3717,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1993-12-27,2005-04-14
+5380,6406,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,1980-02-09,1976-08-07
+4773,8166,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1985-01-29,1994-01-08
+7300,2194,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,2021-08-15,2007-09-27
+9437,5625,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,1980-02-21,2024-04-06
+4160,538,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1983-12-15,1973-12-06
+659,9996,Metformin,250 mg - Often used for medications like Azithromycin.,1997-02-10,2018-04-26
+1009,7347,Paracetamol,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1971-09-18,2016-05-27
+1073,5007,Ibuprofen,250 mg - Often used for medications like Azithromycin.,2020-09-07,1995-11-09
+6938,8993,Metformin,1 mg,2014-12-14,1982-01-26
+2378,1141,Ibuprofen,1 mg,2005-07-29,1977-06-06
+9109,387,Metformin,1 mg,2018-04-28,2015-01-23
+520,8382,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,1982-07-04,1970-07-05
+6411,5323,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1998-06-28,2004-08-09
+489,4322,Metformin,1 mg,1992-10-03,1986-12-27
+4901,5950,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1996-01-21,1993-09-22
+7290,4234,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,1991-05-17,1997-10-02
+9360,6567,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,2009-11-18,1971-12-10
+287,453,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2005-04-11,1970-02-10
+5053,7843,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1991-12-24,1992-10-31
+57,7282,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2011-07-14,2012-05-18
+2964,3064,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1979-01-25,2010-08-11
+8491,3124,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1989-06-03,2016-01-24
+3601,2939,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1985-10-29,1976-11-29
+8867,7457,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,1997-07-08,2021-11-11
+9501,8857,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1995-12-30,2020-02-07
+5436,2687,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,1981-05-05,1995-03-26
+3006,8612,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2002-07-07,2014-09-03
+5968,5801,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1972-06-14,1982-06-11
+1147,169,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,2004-12-18,1982-03-04
+4034,842,Paracetamol,1 mg,1971-09-02,1976-03-29
+470,8296,Paracetamol,250 mg - Often used for medications like Azithromycin.,1994-05-03,1976-11-10
+864,3356,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,1993-10-31,2004-02-02
+6372,181,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1992-07-16,2006-05-18
+4819,1789,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,1977-12-10,1994-10-31
+412,3959,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,1988-02-13,1989-03-05
+4724,8265,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,1973-04-23,2014-09-28
+6897,5031,Simvastatin,1 mg,2003-06-30,2009-09-03
+3266,869,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1970-01-27,2019-12-09
+8481,8743,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,1970-04-16,1991-02-22
+8173,3879,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,1983-04-07,1986-06-04
+4682,1660,Amoxicillin,1 mg,1998-02-04,2002-01-08
+2272,603,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2007-09-24,1997-06-22
+8781,1262,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,2022-07-11,1999-07-11
+6832,2316,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1994-01-21,1977-12-13
+7404,3656,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1992-11-17,1988-05-30
+7864,4809,Metformin,500 mg - Common for antibiotics like Amoxicillin.,2023-09-04,2003-06-02
+6254,1162,Paracetamol,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2018-12-01,2019-02-04
+6266,1165,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1978-01-04,1987-10-04
+9415,5007,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,1987-11-26,1998-12-05
+2768,3068,Metformin,1 mg,1979-11-28,2014-10-29
+7487,9112,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1983-06-14,1979-08-30
+1402,873,Metformin,250 mg - Often used for medications like Azithromycin.,2015-01-30,2021-10-26
+7667,733,Simvastatin,1 mg,2005-11-14,2017-11-13
+6723,5799,Ibuprofen,1 mg,2005-07-30,1983-11-20
+9830,8503,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2020-03-26,2004-05-12
+8396,3841,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,1991-07-03,2007-01-09
+8535,9280,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1993-04-29,2015-11-02
+1171,1507,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1970-10-10,1970-01-18
+2135,9763,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2019-05-30,1994-08-05
+4545,5801,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1980-10-22,1974-01-31
+8660,8326,Paracetamol,1 mg,1973-04-02,1976-07-26
+5003,8827,Ibuprofen,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2016-03-21,1982-09-14
+1391,842,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2014-11-24,1975-08-31
+9496,2939,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2014-06-04,1975-05-21
+4280,5628,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1992-02-22,1998-06-06
+2933,7744,Simvastatin,250 mg - Often used for medications like Azithromycin.,2022-05-17,2001-08-01
+4222,8130,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1975-06-06,2012-07-17
+1364,1162,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,1986-08-20,1991-05-08
+9117,6523,Cetirizine,250 mg - Often used for medications like Azithromycin.,1976-01-13,2022-06-26
+8162,2792,Paracetamol,250 mg - Often used for medications like Azithromycin.,2015-05-25,2002-08-17
+8953,9760,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1988-10-10,1987-08-16
+6842,9071,Metformin,1 mg,1990-07-22,1986-11-16
+3381,5245,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,1979-04-06,2024-04-04
+9336,767,Cetirizine,250 mg - Often used for medications like Azithromycin.,2004-01-06,1978-02-26
+7581,7325,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,2018-04-19,2018-02-07
+7859,2292,Simvastatin,250 mg - Often used for medications like Azithromycin.,1972-03-19,1989-10-10
+2553,6567,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1996-01-17,1984-07-13
+2712,5845,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2004-07-14,1987-11-01
+7978,1112,Ibuprofen,1 mg,2004-03-27,1973-10-07
+7440,4026,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1986-03-05,2022-09-01
+5286,6576,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2009-08-10,2008-08-26
+8673,9113,Metformin,250 mg - Often used for medications like Azithromycin.,1996-01-23,2022-04-03
+5223,7808,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2008-08-25,1981-11-25
+4494,6999,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1985-10-28,1986-12-05
+5060,8127,Metformin,500 mg - Common for antibiotics like Amoxicillin.,1977-08-19,2014-05-04
+923,3998,Ibuprofen,1 mg,2010-08-16,1972-10-12
+2102,6216,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2001-03-02,2006-07-14
+201,1360,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2022-06-09,1988-11-16
+553,7709,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1987-11-15,2023-06-18
+6572,7127,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2013-05-28,2008-07-06
+3281,8738,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,2023-08-31,1994-08-17
+7606,6784,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1988-07-13,2006-09-10
+6575,6245,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2003-12-04,1983-12-12
+5009,4136,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1981-06-15,2005-09-27
+7139,3712,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2010-01-05,1998-07-14
+6242,1605,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2004-01-16,2007-05-24
+65,9763,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,2023-08-31,2023-05-16
+9044,1660,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,2022-02-01,2014-03-24
+6792,7958,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1977-04-19,1988-01-08
+9756,2725,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2011-11-20,1988-12-21
+4188,5801,Amoxicillin,250 mg - Often used for medications like Azithromycin.,2001-05-17,2004-05-16
+9827,6827,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1982-01-09,2020-01-16
+8490,2087,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1986-12-18,1972-04-19
+9178,2457,Ibuprofen,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1997-01-28,1999-05-20
+4577,2196,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,1988-10-12,1972-01-05
+2309,4026,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1976-12-18,1977-06-10
+8138,6267,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1993-06-12,1998-12-19
+4916,4838,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2021-10-23,2001-03-01
+5218,3275,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,1993-11-17,1970-04-04
+3546,2450,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,2018-11-04,1999-10-03
+5405,921,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1997-12-12,1986-01-21
+7947,4008,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,2018-07-31,1970-12-02
+3399,1915,Metformin,500 mg - Common for antibiotics like Amoxicillin.,2010-02-04,2017-07-14
+3108,6784,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,2012-07-05,1971-04-04
+1510,5950,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,2010-12-07,1998-07-12
+3727,5368,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1995-07-17,2007-08-29
+4409,989,Simvastatin,250 mg - Often used for medications like Azithromycin.,1980-03-09,2023-02-10
+9804,4136,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,2001-03-13,1979-01-25
+3278,873,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1984-02-25,2002-06-28
+3745,8317,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1993-05-23,2013-03-19
+3888,148,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,1971-09-19,1981-10-19
+5435,4377,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,2005-03-10,1981-12-06
+1438,169,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2011-05-19,2013-03-13
+5892,3504,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1982-03-14,2020-05-26
+5552,4904,Ibuprofen,250 mg - Often used for medications like Azithromycin.,2011-09-15,1984-03-23
+5369,7359,Cetirizine,250 mg - Often used for medications like Azithromycin.,1997-07-23,1991-07-07
+8794,3616,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,1978-10-23,2001-11-11
+8984,4126,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,2023-10-05,2003-06-09
+6710,1054,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1983-04-21,2018-07-29
+2094,7023,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1999-08-14,1995-06-29
+8428,6038,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2013-03-01,1998-09-13
+2523,1507,Paracetamol,250 mg - Often used for medications like Azithromycin.,1979-03-04,2007-01-17
+7132,3253,Amoxicillin,250 mg - Often used for medications like Azithromycin.,2011-10-16,1991-04-30
+4354,2466,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1996-07-31,1989-03-31
+5894,3587,Metformin,1 mg,1972-10-02,1979-05-08
+6648,9996,Ibuprofen,1 mg,1993-09-08,2024-06-14
+6022,9760,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1974-07-17,2004-05-28
+3629,8150,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,1970-02-01,1978-01-06
+9408,8382,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,1975-07-15,1995-05-15
+1716,9737,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1985-05-11,1979-02-08
+7468,1112,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2002-06-20,2024-09-24
+4207,8860,Cetirizine,1 mg,1990-11-13,1971-09-15
+9095,1162,Cetirizine,1 mg,2004-10-28,1980-11-17
+1376,2904,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1993-09-04,1998-07-01
+9667,2552,Paracetamol,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1996-06-15,1982-07-04
+1024,7525,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2021-01-04,1987-07-11
+519,5361,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,2000-02-15,2005-05-10
+9028,4765,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1985-12-03,2019-08-28
+5765,4746,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,1996-07-27,2022-03-13
+1436,733,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2007-11-27,2019-08-19
+9324,2153,Paracetamol,250 mg - Often used for medications like Azithromycin.,2005-07-07,2007-09-13
+8573,7709,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2001-09-07,1977-11-01
+1467,5398,Amoxicillin,250 mg - Often used for medications like Azithromycin.,2017-04-24,2010-04-12
+6077,8307,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,2021-09-30,1997-09-08
+9644,596,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,2015-10-13,2019-08-30
+6843,8301,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2010-01-26,2022-04-23
+777,7161,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,1982-04-20,2002-09-25
+8871,5761,Metformin,1 mg,1979-08-20,1999-12-21
+3623,2552,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2020-11-29,2023-03-20
+445,3717,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2015-04-29,2022-10-14
+3887,873,Simvastatin,1 mg,2022-04-29,1998-06-27
+5771,5801,Simvastatin,1 mg,1993-01-06,1998-10-10
+2869,5852,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,2013-02-05,2007-11-24
+9003,1955,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2004-02-14,2015-03-29
+3676,8170,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1999-03-29,2011-01-09
+1240,7161,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2005-05-26,1986-07-25
+7031,5007,Cetirizine,250 mg - Often used for medications like Azithromycin.,2016-09-26,1988-09-07
+1891,9566,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,2011-08-29,1987-09-11
+7496,3547,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2020-04-05,1989-01-11
+7604,6952,Ibuprofen,250 mg - Often used for medications like Azithromycin.,2002-01-22,1995-12-14
+8944,7444,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,2012-08-27,2021-12-21
+8328,461,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1996-10-25,1981-09-02
+9549,4254,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1990-03-18,1983-10-04
+6417,2464,Cetirizine,1 mg,2019-03-11,2011-03-24
+1069,6379,Simvastatin,1 mg,2000-10-29,1992-07-31
+9876,1162,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1980-07-06,2000-05-18
+2661,3356,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,1989-03-23,2009-10-25
+9934,7586,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2012-10-20,1988-09-13
+1614,1519,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,2018-04-04,2010-01-05
+8102,9245,Metformin,1 mg,2014-04-17,2006-06-14
+3967,6576,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2004-01-15,1977-09-22
+44,3118,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2011-01-20,2017-06-26
+4202,9171,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2020-03-01,1988-05-23
+3572,227,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,1988-06-20,1987-01-01
+442,3547,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1988-03-08,2021-08-02
+3171,3800,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2003-11-16,2014-01-23
+5999,8568,Amoxicillin,1 mg,1994-02-14,1970-02-03
+9601,148,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2020-04-09,2022-09-30
+7637,3834,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1996-01-08,1970-04-13
+4166,181,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2008-10-10,1972-08-28
+2232,235,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1999-06-23,1986-05-16
+7801,6999,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2024-07-31,2006-08-17
+5636,467,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,1970-10-31,2004-11-30
+4041,8738,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2000-10-08,1990-05-21
+6630,8265,Metformin,250 mg - Often used for medications like Azithromycin.,1991-09-30,1980-10-07
+4208,2699,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2012-11-27,2007-01-02
+8676,8851,Amoxicillin,250 mg - Often used for medications like Azithromycin.,2024-07-27,2012-03-02
+7860,4136,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1981-07-06,2018-03-05
+7429,1235,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,1993-04-16,1986-05-08
+9857,1141,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1989-05-10,1991-04-26
+1183,7935,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1984-06-27,2008-12-10
+3030,6282,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,2018-08-22,1984-10-29
+4558,6282,Metformin,500 mg - Common for antibiotics like Amoxicillin.,2003-02-06,2002-03-20
+5663,8413,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,2006-07-07,1976-07-13
+5391,9403,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2017-01-07,2016-01-27
+4098,1812,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1995-04-17,1992-03-07
+8306,810,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,1999-05-22,2014-02-24
+4221,9018,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,1973-02-01,1990-12-10
+414,5398,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,1984-12-19,2005-01-01
+7058,6267,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,1972-08-25,2023-02-02
+4389,8273,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1975-10-18,1998-03-17
+1686,5323,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1995-05-05,2003-04-01
+4417,1054,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2012-03-13,1970-12-04
+8280,6577,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2009-11-27,2012-11-05
+1714,21,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,1992-11-20,1984-09-23
+5189,8388,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1998-06-20,1981-02-26
+6362,8258,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1974-07-27,1982-11-26
+7152,7618,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1986-05-13,2010-08-30
+4471,233,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,1973-11-20,2007-10-25
+8313,4897,Metformin,250 mg - Often used for medications like Azithromycin.,1985-10-22,1983-07-30
+8461,2345,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1990-07-14,2003-01-21
+1286,8860,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1973-10-30,1975-06-11
+1044,5845,Cetirizine,250 mg - Often used for medications like Azithromycin.,2023-06-23,1991-06-10
+108,4765,Cetirizine,1 mg,1981-02-14,2006-01-06
+675,4838,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,1992-04-22,1995-08-18
+2691,1762,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2001-06-13,2006-12-05
+5409,9893,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1976-01-12,1998-01-01
+4424,3253,Simvastatin,250 mg - Often used for medications like Azithromycin.,2002-05-14,1984-08-07
+87,1151,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,1989-03-03,2022-08-20
+199,9480,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,2021-02-24,2005-11-09
+8614,643,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,2012-07-04,1983-10-01
+1675,5398,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1994-11-27,1989-08-21
+8397,4081,Ibuprofen,1 mg,1993-06-18,2008-04-30
+7970,6456,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1992-08-30,1974-10-19
+6243,993,Metformin,250 mg - Often used for medications like Azithromycin.,2012-07-27,2008-02-13
+6583,4254,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,2000-08-31,2001-08-03
+9291,5953,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2010-03-30,2004-06-14
+5412,7617,Cetirizine,1 mg,2007-09-06,2001-01-23
+5334,4838,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1992-06-10,1995-06-06
+1565,7935,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1997-11-09,2020-04-10
+1016,9737,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,1995-10-15,2011-04-28
+9455,4886,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2016-07-14,1973-03-18
+1684,8868,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2024-01-12,2013-06-22
+5410,264,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1980-04-15,2017-10-06
+7463,8860,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,2012-02-25,2023-01-28
+3898,428,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,1989-02-07,2007-11-11
+7165,4082,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1982-05-28,2006-06-11
+9236,6620,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1970-04-14,1994-05-21
+8082,7600,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1985-01-08,2004-02-28
+1836,4008,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1995-07-10,2021-10-19
+2369,4642,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1991-11-06,1992-09-16
+8740,5245,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2011-05-17,1985-03-31
+2884,8621,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2010-11-23,2024-06-28
+988,6840,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,2005-04-24,2024-08-25
+6500,1660,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,1998-04-26,2007-12-01
+1224,2419,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2019-11-16,1972-03-13
+8523,1235,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2014-01-01,2022-01-21
+1996,887,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1976-06-29,1975-08-08
+6172,5317,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,1971-03-24,1995-05-03
+2408,3648,Cetirizine,250 mg - Often used for medications like Azithromycin.,2015-10-07,2022-09-12
+9746,5918,Paracetamol,250 mg - Often used for medications like Azithromycin.,2004-06-06,2004-09-14
+3154,1054,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,1974-11-20,1985-06-19
+6746,3068,Ibuprofen,1 mg,1977-04-17,2011-05-07
+804,3587,Ibuprofen,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2011-09-19,1972-08-10
+6502,8870,Cetirizine,250 mg - Often used for medications like Azithromycin.,1971-04-30,2003-10-14
+9592,4904,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1988-05-19,1977-02-28
+7446,8127,Cetirizine,1 mg,2022-02-26,2002-06-17
+3749,461,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1983-11-24,1977-08-30
+4486,3223,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1992-02-21,2016-10-06
+4318,6840,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2006-12-25,1997-10-30
+179,1323,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2013-10-24,1995-02-18
+9364,3554,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1985-06-14,1977-06-04
+9686,9763,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,2006-06-14,1977-01-07
+5440,2913,Metformin,1 mg,2014-06-09,2014-03-10
+9622,6721,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,1980-06-12,2023-04-03
+6850,805,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,2013-10-20,1975-05-29
+8099,8301,Amoxicillin,1 mg,1993-11-03,2013-02-15
+7091,9855,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1998-08-31,1973-04-30
+2100,6474,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1989-08-08,1970-11-07
+2703,5625,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2010-08-29,1973-12-06
+1269,8198,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,2007-04-25,2023-11-13
+1320,5918,Ibuprofen,1 mg,2002-09-16,1976-05-14
+6976,7806,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,1987-01-19,2018-08-22
+7280,5305,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,2004-01-22,1990-08-10
+9308,2287,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1983-03-19,1972-07-30
+8784,6187,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2023-03-20,1998-09-11
+5109,2004,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1994-04-16,1984-02-04
+1214,5801,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2008-11-21,1994-06-28
+2096,2591,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,1999-11-24,1978-06-12
+762,8554,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,1996-02-03,1974-08-30
+5932,8307,Cetirizine,250 mg - Often used for medications like Azithromycin.,2023-03-17,2004-11-17
+4651,3712,Cetirizine,250 mg - Often used for medications like Azithromycin.,2006-04-20,1982-02-02
+7253,6827,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2023-09-27,1976-08-21
+4161,4924,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,2013-12-04,1995-07-05
+2136,4924,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2020-10-29,1995-02-01
+4361,8005,Metformin,250 mg - Often used for medications like Azithromycin.,2007-04-25,1982-02-19
+2959,6080,Simvastatin,1 mg,2001-03-23,2010-06-13
+9649,3504,Cetirizine,250 mg - Often used for medications like Azithromycin.,1996-12-24,1982-03-23
+4024,9763,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2013-06-30,2010-11-17
+1927,5898,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1972-04-25,2019-02-08
+3491,7481,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,1971-04-16,1995-03-31
+9852,8503,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2021-04-28,1978-08-30
+1941,5777,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,2007-01-16,1983-10-13
+6132,3238,Paracetamol,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2008-10-19,1988-06-26
+3230,5911,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2001-12-28,2016-11-01
+2452,334,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,1995-07-05,1994-03-08
+3926,2736,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1997-01-02,1975-05-20
+7708,8870,Metformin,1 mg,1974-05-12,2004-10-05
+6640,5914,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,1997-05-30,2008-03-02
+2512,5245,Amoxicillin,250 mg - Often used for medications like Azithromycin.,2000-01-14,2009-07-12
+9865,1084,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1994-09-28,2002-01-20
+9289,8924,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2022-07-06,2022-09-13
+4757,8114,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1987-07-22,2002-07-11
+8821,4126,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,2015-05-13,1985-03-16
+7466,3547,Simvastatin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1991-10-13,1984-08-10
+6295,4630,Simvastatin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2007-12-31,2023-04-13
+8591,2450,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,1975-07-19,1995-12-08
+9405,387,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,2012-10-02,1970-04-23
+2182,8292,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1976-08-25,1988-10-21
+8856,7413,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1972-10-06,2024-09-15
+9448,550,Ibuprofen,1 mg,2015-05-06,1982-04-17
+5581,8542,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,1996-03-28,2017-09-21
+9045,7296,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,1978-11-15,2012-08-20
+8171,2345,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,1973-05-06,1990-10-18
+2653,3800,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2015-06-15,2004-03-24
+1315,4082,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2009-04-09,1989-09-26
+7146,9113,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,1985-03-12,1994-11-18
+7209,8759,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2017-04-16,1997-11-29
+8578,3358,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,2021-04-29,2018-10-20
+8632,9774,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,1981-10-02,1987-03-04
+8575,3807,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,1985-07-20,2004-09-20
+1520,6840,Ibuprofen,1 mg,2000-06-17,1992-12-09
+7035,921,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2014-11-30,2020-05-11
+8355,5296,Ibuprofen,250 mg - Often used for medications like Azithromycin.,2002-01-12,2012-03-20
+5215,2968,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1973-01-22,1986-12-16
+1396,4765,Simvastatin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2022-11-09,1986-03-21
+2803,5246,Metformin,500 mg - Common for antibiotics like Amoxicillin.,2005-11-24,1986-10-26
+4385,3040,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,2003-01-28,1994-07-26
+6367,3064,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,1980-08-28,1979-03-04
+6711,5317,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,1997-01-22,1971-07-28
+2078,2441,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1972-11-01,1986-10-30
+7445,8353,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1986-04-20,2015-09-02
+6878,5625,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,1989-06-12,2023-03-15
+4938,6228,Paracetamol,250 mg - Often used for medications like Azithromycin.,2004-12-17,1974-01-10
+9874,873,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2003-06-14,2007-07-06
+6054,3561,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,2015-05-10,1978-01-10
+3891,5625,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,1988-04-24,1992-07-07
+3784,4429,Ibuprofen,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1987-05-08,2003-04-14
+1583,1776,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1983-12-12,2004-08-31
+6370,7413,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,2022-06-19,1980-02-19
+6790,3368,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2021-01-11,1981-11-15
+2210,1507,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,1985-10-24,1999-10-21
+9179,3253,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1984-09-13,1997-10-25
+745,1156,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,2000-11-05,1992-06-13
+3664,2194,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,1973-09-19,2019-02-07
+3756,6228,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1986-03-31,2020-02-02
+4300,4846,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,2008-12-25,1990-05-25
+2625,2287,Metformin,500 mg - Common for antibiotics like Amoxicillin.,1977-06-02,1998-09-24
+4836,181,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1975-06-24,1986-11-18
+3251,8167,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,1985-08-07,2016-09-10
+6535,5845,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2022-03-11,2023-03-30
+5957,1112,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,1985-11-10,1984-02-16
+307,210,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,2014-03-22,1991-12-28
+9116,2456,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2011-07-01,1971-10-22
+9359,8150,Cetirizine,1 mg,2011-03-26,2003-06-21
+2796,9955,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1994-05-30,1979-01-30
+9438,3068,Amoxicillin,1 mg,2009-01-27,1974-07-27
+568,4445,Ibuprofen,1 mg,2024-02-26,2000-07-16
+4624,726,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1986-06-02,2016-03-09
+531,3045,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,2016-05-16,1983-10-11
+5282,6391,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,2016-04-19,2009-04-18
+373,2464,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2020-10-10,1976-04-02
+4096,3659,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2012-07-03,1996-04-27
+3408,2924,Amoxicillin,250 mg - Often used for medications like Azithromycin.,2018-09-07,1989-03-10
+6942,387,Paracetamol,250 mg - Often used for medications like Azithromycin.,1979-08-27,1977-05-12
+698,8394,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,2001-12-30,2003-08-15
+9181,993,Metformin,500 mg - Common for antibiotics like Amoxicillin.,2023-06-29,2019-09-23
+8218,1507,Simvastatin,250 mg - Often used for medications like Azithromycin.,1980-08-16,1985-11-29
+7514,6379,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2012-11-07,1981-11-19
+8259,7473,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2004-04-26,2013-12-21
+471,1432,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,2007-12-03,1973-03-12
+4991,8258,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2017-07-01,2009-02-02
+1036,4790,Paracetamol,1 mg,1980-12-01,1972-06-19
+9256,7586,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1997-10-28,1972-09-12
+987,9113,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2015-02-25,2008-03-27
+3714,8747,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2024-09-10,1981-10-01
+1406,8046,Simvastatin,1 mg,2024-06-25,2000-10-10
+4681,3197,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,2004-03-05,1991-09-28
+7800,5350,Amoxicillin,1 mg,1994-11-07,1983-04-25
+9341,2656,Paracetamol,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2024-04-09,2002-12-14
+3602,3998,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1978-12-22,2019-09-07
+4673,5245,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1988-03-13,1973-05-13
+5354,9171,Metformin,1 mg,1970-07-20,1986-11-04
+3467,235,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2004-08-30,2024-09-14
+2335,5020,Cetirizine,250 mg - Often used for medications like Azithromycin.,1989-11-12,2009-04-05
+4334,4726,Paracetamol,250 mg - Often used for medications like Azithromycin.,1998-12-12,1987-04-17
+1178,6479,Cetirizine,1 mg,1999-08-20,2010-06-21
+5418,1616,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1989-10-24,1980-10-21
+3951,8388,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2015-10-22,2005-08-30
+526,2034,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2021-04-15,1994-09-07
+877,8747,Paracetamol,250 mg - Often used for medications like Azithromycin.,2001-01-27,1970-01-11
+1982,6451,Metformin,250 mg - Often used for medications like Azithromycin.,1972-01-14,1976-03-04
+5291,9955,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2016-07-29,1977-09-27
+6933,6999,Cetirizine,1 mg,2003-05-25,1995-09-08
+6504,3045,Ibuprofen,250 mg - Often used for medications like Azithromycin.,2018-08-20,2019-01-11
+7557,7473,Cetirizine,250 mg - Often used for medications like Azithromycin.,2007-01-25,1982-09-03
+308,5007,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2007-11-29,1970-03-21
+646,1165,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,1994-02-23,1992-12-14
+3412,2446,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1981-04-27,2024-07-12
+5666,3197,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2023-06-09,1998-09-13
+4092,2466,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,1992-05-14,1980-05-27
+2245,148,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,1990-01-23,1976-01-30
+4930,1507,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2016-05-13,2012-03-25
+672,7325,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,2014-02-03,1994-02-28
+4129,2287,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,2005-03-05,1976-09-25
+2729,5761,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1970-06-26,1980-11-25
+354,5661,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1984-06-26,1971-05-31
+363,4846,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,2011-12-24,2009-05-30
+3138,9955,Ibuprofen,1 mg,2019-04-03,1991-06-26
+7633,6080,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,2019-05-04,1978-06-02
+7403,9831,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1991-01-08,1978-12-06
+6415,1904,Simvastatin,1 mg,2016-12-18,2010-01-19
+1657,3275,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2002-08-23,1985-04-03
+1464,6285,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,1975-12-02,2012-07-08
+8731,8970,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2009-07-21,2022-12-28
+1372,1660,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2021-01-07,1972-05-10
+6068,3807,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2016-07-19,2005-04-21
+1678,4322,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1988-10-29,2012-05-15
+2370,2332,Paracetamol,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1990-02-04,2005-04-01
+6729,9763,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2003-09-24,2021-09-21
+6204,5628,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1988-03-25,2008-04-25
+8905,4254,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1983-02-09,2013-01-13
+5902,9421,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1996-10-24,1981-10-13
+6495,9687,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1981-09-28,1971-09-30
+9952,8686,Metformin,1 mg,2013-02-28,1984-01-28
+3323,810,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,1991-03-11,2003-04-09
+3359,908,Cetirizine,250 mg - Often used for medications like Azithromycin.,1992-08-14,1990-01-30
+8600,8413,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1992-08-22,2023-03-06
+6596,2345,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2014-03-15,2021-03-04
+9279,8353,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,1999-11-21,1989-08-20
+1154,5225,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2006-08-24,2008-09-06
+4592,7325,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1999-09-10,1996-08-17
+1754,5799,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1988-08-03,2013-02-02
+6607,9763,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,1975-03-02,1971-12-16
+6917,8292,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2009-12-13,2004-09-19
+418,8301,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1970-02-10,1992-11-05
+2268,2913,Ibuprofen,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1977-02-15,1974-09-11
+8872,8482,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,2013-02-14,1970-02-23
+3436,3959,Simvastatin,1 mg,2019-01-23,2000-01-02
+590,6554,Simvastatin,1 mg,1978-04-30,1970-11-01
+7932,8256,Metformin,1 mg,1998-08-30,2003-01-25
+43,5878,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,2000-03-03,2017-11-15
+7920,5953,Cetirizine,250 mg - Often used for medications like Azithromycin.,1970-03-29,1977-07-23
+3327,7741,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2023-03-06,2010-04-21
+2843,9566,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2011-09-14,2005-02-07
+2805,6098,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,2012-07-12,1996-01-18
+7774,9424,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2009-11-17,1988-03-19
+6137,3368,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,1997-06-08,1977-10-06
+246,8857,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2002-07-26,2015-08-14
+9978,7473,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1979-10-28,1981-10-20
+7884,550,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1998-05-15,2010-08-15
+1041,4029,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1985-05-17,1997-04-28
+6306,5918,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,1993-10-17,2013-06-19
+9899,8503,Amoxicillin,1 mg,1979-02-25,2007-08-05
+572,1639,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2007-12-31,1978-04-27
+2773,7862,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2017-09-10,1989-01-17
+4735,8119,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2009-12-24,1980-02-22
+7293,9315,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2000-11-07,2020-08-02
+4466,4429,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1998-02-28,1977-11-07
+8180,3504,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,1996-12-16,2024-08-16
+9767,4904,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1982-05-29,2015-10-14
+6426,1952,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,2012-10-11,1991-01-24
+5253,7621,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2014-01-29,1985-04-17
+5731,6619,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1997-05-27,1988-11-27
+319,9347,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2013-06-17,2022-10-12
+7213,6072,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,1987-12-25,2000-05-08
+9820,8609,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2021-06-27,2013-05-13
+4139,6072,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1972-04-16,1978-04-29
+5991,8681,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1972-01-22,1985-08-12
+2037,4234,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,1975-01-31,2010-05-18
+934,3356,Cetirizine,250 mg - Often used for medications like Azithromycin.,2008-07-13,2012-11-13
+7474,9491,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,2004-06-10,1982-05-23
+5010,3026,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2003-12-30,1998-07-01
+7883,5007,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1979-09-29,2024-09-21
+9488,6952,Metformin,500 mg - Common for antibiotics like Amoxicillin.,2005-03-27,1995-06-21
+9115,5296,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1981-09-28,1979-04-05
+1809,2457,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2020-09-21,1991-12-26
+1494,7614,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2012-07-10,2006-04-10
+2612,688,Paracetamol,1 mg,1996-08-06,2006-09-14
+8713,5180,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,1984-05-04,2020-12-19
+7405,7413,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2002-06-20,1995-07-14
+5793,6248,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1970-09-19,1988-06-22
+2877,1328,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2011-05-20,2016-06-22
+4339,1780,Metformin,250 mg - Often used for medications like Azithromycin.,1998-05-06,2020-08-05
+2183,8043,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,1979-10-18,1973-03-12
+1615,3879,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2008-03-17,2015-03-22
+4181,6840,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1970-11-18,2021-11-24
+9731,5093,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,2005-10-17,2003-05-15
+1344,9511,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2008-11-18,1973-03-25
+5238,7862,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1978-03-04,1983-07-08
+4182,5225,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1980-03-28,1986-09-11
+7443,8046,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,2001-03-14,1975-11-01
+3242,1823,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2009-02-09,2008-11-04
+3386,6449,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,1994-12-12,2002-03-29
+7383,7529,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,1994-05-18,2017-03-28
+3427,5983,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2012-07-01,1989-09-11
+3734,9955,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,2016-09-09,2022-03-11
+5578,4173,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1997-12-11,1976-09-11
+1190,2301,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,1979-03-17,1980-01-03
+9418,5845,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1990-02-14,2009-02-06
+4224,1484,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,2005-10-14,1985-04-16
+1623,9459,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2008-08-06,2011-11-10
+2033,8814,Ibuprofen,1 mg,2015-07-05,1990-08-04
+5475,7307,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2012-08-09,2014-01-04
+6894,1789,Ibuprofen,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2014-07-14,2002-09-14
+9851,1503,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1998-11-05,2013-09-17
+7328,897,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,1973-07-21,1977-11-10
+9776,4205,Amoxicillin,1 mg,2001-10-21,1985-07-05
+4816,6228,Ibuprofen,250 mg - Often used for medications like Azithromycin.,2023-01-25,1996-08-08
+6398,1660,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,2008-10-20,1975-02-05
+7227,7806,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,2024-04-14,1993-10-02
+5590,1112,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2010-06-10,2019-05-06
+4534,9500,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,2001-11-08,1995-12-11
+5929,9766,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1993-04-02,2002-11-20
+2091,5950,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,2023-09-08,1980-04-21
+4414,7600,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,2017-10-06,1996-05-25
+430,8258,Simvastatin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1975-06-01,2009-08-04
+2204,7120,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1994-06-16,1980-10-03
+9833,1823,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2004-11-01,2021-06-27
+6481,2677,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2020-07-07,1977-09-14
+1649,6466,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2002-03-24,1971-11-21
+9382,5911,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1972-05-10,2017-07-08
+1035,9347,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1984-07-22,1998-07-29
+3522,6584,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,2007-05-12,1973-05-18
+7221,4353,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2004-11-13,1982-07-01
+6404,3841,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1976-08-13,1970-08-29
+685,9566,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2014-05-09,2001-07-12
+3804,4790,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2004-09-17,1988-09-24
+7113,4205,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,1995-12-24,1990-01-24
+8370,7651,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1970-12-13,1983-02-22
+2051,1480,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2005-04-23,2005-10-16
+3995,9112,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2008-03-05,1976-10-17
+7163,2301,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1994-01-21,2005-06-12
+9331,8292,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2017-11-23,2006-01-31
+9425,5972,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,2005-05-23,2012-08-01
+398,5661,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,2002-02-19,1998-02-17
+6566,1165,Cetirizine,250 mg - Often used for medications like Azithromycin.,2013-12-24,2020-04-27
+8955,6493,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,1997-03-16,1971-03-31
+3106,940,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,1997-10-22,2021-01-27
+326,3368,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,1970-10-10,1978-07-27
+4920,7716,Cetirizine,1 mg,1979-01-20,2008-04-30
+5995,2687,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,2017-05-15,2015-10-05
+490,8307,Amoxicillin,1 mg,1986-06-14,1993-05-15
+4174,8612,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1997-08-17,1974-05-21
+8638,9428,Metformin,500 mg - Common for antibiotics like Amoxicillin.,1978-09-24,1995-10-07
+6319,897,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,1977-02-23,2003-09-26
+8574,6642,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,2003-03-08,1998-02-23
+8205,2699,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1995-04-23,1990-08-05
+180,2583,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2014-10-17,1981-02-02
+3512,1701,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,2008-06-30,2000-11-20
+8861,6177,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2012-03-27,2017-03-07
+9576,6493,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,2001-10-27,2019-04-06
+5937,7186,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,2009-05-28,2011-02-21
+2141,2583,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2003-01-02,1991-03-23
+8097,2542,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,2006-02-16,2023-11-20
+8626,3253,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,1990-04-03,2022-10-12
+3933,6691,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1989-10-10,1989-12-05
+3671,2050,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1991-09-01,1991-08-01
+4297,8482,Metformin,250 mg - Often used for medications like Azithromycin.,2017-07-23,1970-05-11
+1257,6285,Metformin,250 mg - Often used for medications like Azithromycin.,2001-08-27,2009-07-17
+5165,8568,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,2022-07-11,2020-07-28
+6904,1094,Amoxicillin,1 mg,1982-11-25,1977-09-23
+6996,494,Cetirizine,250 mg - Often used for medications like Azithromycin.,1994-05-30,2005-04-11
+857,6323,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2003-04-13,2012-03-08
+1486,8080,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,2003-04-26,2011-04-08
+3720,6399,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1990-01-26,2018-01-29
+6762,8982,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,2013-04-05,1994-07-04
+8966,7651,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2006-10-06,2008-12-16
+4652,994,Metformin,500 mg - Common for antibiotics like Amoxicillin.,2021-12-11,2010-01-16
+9129,3656,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,1984-11-17,2004-01-18
+3710,8303,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2024-02-26,1970-05-31
+819,2153,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,1986-05-09,1987-10-10
+8159,8005,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1988-07-04,2022-08-08
+943,9071,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1985-04-03,1987-07-21
+6910,1261,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2018-10-17,2001-10-18
+5949,8258,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1980-05-13,1997-08-23
+126,1952,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1992-06-07,1981-05-19
+1274,9831,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,2010-10-10,2022-05-03
+822,4846,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2019-07-17,2023-01-14
+785,4733,Ibuprofen,1 mg,2020-10-20,2011-10-13
+5467,887,Amoxicillin,1 mg,1980-08-19,1975-03-08
+7695,7600,Amoxicillin,250 mg - Often used for medications like Azithromycin.,2023-11-24,2015-05-03
+4253,6391,Amoxicillin,1 mg,1989-01-09,2004-04-27
+882,8612,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2004-08-06,2011-10-13
+7068,6691,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1979-06-10,2007-04-18
+2762,8393,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1970-09-23,1974-06-29
+4481,2932,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2014-02-14,2021-04-23
+7510,264,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1994-08-11,2003-05-27
+4295,921,Cetirizine,250 mg - Often used for medications like Azithromycin.,1998-10-22,2018-05-19
+1842,2345,Cetirizine,1 mg,2003-10-07,2007-03-16
+8037,3064,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2013-04-07,2014-09-23
+3437,9171,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2016-03-03,1997-12-22
+654,494,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2010-09-16,1985-03-22
+3958,8993,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,2021-09-13,2017-04-18
+8695,1156,Paracetamol,1 mg,2021-06-08,2012-12-04
+4885,8400,Paracetamol,1 mg,2009-06-26,1986-11-28
+6003,4236,Cetirizine,250 mg - Often used for medications like Azithromycin.,2002-01-31,1978-12-07
+535,2345,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1979-04-07,1988-04-06
+7766,1054,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1978-08-17,2016-11-15
+7394,9500,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1995-04-02,1975-04-09
+2054,8612,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,1984-08-23,1970-09-21
+2938,235,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,1985-11-03,2001-10-15
+6899,2446,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1994-06-08,2007-07-09
+8619,4790,Cetirizine,250 mg - Often used for medications like Azithromycin.,2024-04-15,1983-12-04
+1023,8256,Ibuprofen,5 mg - Common for medications like Amlodipine (used for hypertension).,1994-05-11,1982-01-27
+8464,8046,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1976-10-05,1971-04-08
+2402,3228,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2016-11-30,2021-11-02
+7640,8743,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1989-01-03,1997-02-25
+6450,2345,Metformin,1 mg,2007-08-26,1976-07-29
+6954,5398,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2015-08-29,2019-04-02
+1347,8382,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,2016-05-12,2011-07-14
+1075,9500,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1972-11-07,1971-08-23
+6794,8388,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,1980-03-07,2015-05-27
+813,181,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,1990-02-15,2012-02-12
+4543,1182,Cetirizine,1 mg,1982-07-15,2006-12-05
+407,9737,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1989-03-24,1993-08-21
+9510,4234,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1976-06-05,1978-12-22
+9002,726,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2019-06-19,2000-02-20
+50,5298,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,1990-11-09,1973-04-11
+1471,6637,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,1970-03-03,1980-04-28
+8436,6827,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,2016-05-01,2004-10-06
+1875,5983,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2005-11-28,2014-01-11
+509,3253,Metformin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1973-08-22,2021-07-03
+714,1812,Simvastatin,1 mg,1981-04-30,1992-01-14
+4567,6216,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1984-03-26,2000-01-03
+9751,5950,Ibuprofen,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1991-06-17,2011-12-18
+1027,8735,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1999-12-19,2022-10-07
+8420,5476,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2005-12-06,1973-02-02
+9653,8246,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,2012-12-26,2005-05-12
+1239,3026,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1994-11-10,2020-03-18
+7831,8993,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2024-02-02,2007-01-10
+2801,3648,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1974-11-26,2006-11-11
+6400,9403,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1989-03-07,1985-06-21
+2733,9766,Cetirizine,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2023-11-19,1980-01-06
+8709,8286,Cetirizine,50 mg - Typical for medications like Sertraline (used for depression).,1991-11-18,2014-03-04
+9744,4429,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,2011-06-27,1989-09-22
+9861,5007,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2020-08-04,1997-10-05
+8945,7028,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,1995-03-29,2006-06-23
+1104,6577,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,1999-04-13,1976-02-18
+7881,9472,Metformin,500 mg - Common for antibiotics like Amoxicillin.,1985-09-04,1990-06-19
+4641,5476,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,2019-06-21,1997-02-18
+2157,1448,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2008-10-06,1971-01-27
+6921,8857,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1980-03-09,1993-12-09
+2961,2895,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2021-06-13,2021-12-07
+5959,8265,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,2015-08-15,1987-10-04
+4356,7600,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,2003-04-15,1979-06-30
+7201,9893,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,1990-10-05,1991-09-25
+3960,1701,Metformin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1981-08-29,2014-11-01
+196,5799,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2010-12-18,2020-10-06
+614,8759,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2008-12-30,1973-04-11
+6742,6267,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2004-12-07,1978-05-30
+6439,8167,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2005-10-19,2010-06-10
+5080,3834,Metformin,250 mg - Often used for medications like Azithromycin.,1996-10-17,2011-11-30
+1888,8317,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1974-07-15,1981-09-04
+5250,4586,Cetirizine,250 mg - Often used for medications like Azithromycin.,2012-10-28,1994-06-30
+3043,643,Simvastatin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2016-10-28,1986-08-26
+9594,7457,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1982-03-16,2018-09-25
+2179,3659,Paracetamol,250 mg - Often used for medications like Azithromycin.,1987-01-16,2015-07-01
+2226,994,Metformin,500 mg - Common for antibiotics like Amoxicillin.,2019-03-12,1974-12-13
+955,8003,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,1971-10-15,2015-12-23
+9069,1165,Amoxicillin,250 mg - Often used for medications like Azithromycin.,2000-06-17,1995-03-09
+6173,7023,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,1996-10-27,1975-04-04
+5489,7634,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1999-09-13,2014-09-02
+288,9760,Ibuprofen,500 mg - Common for antibiotics like Amoxicillin.,1982-02-08,1988-12-27
+2767,5085,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2022-06-12,2007-12-08
+2048,6038,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,2013-12-01,2002-09-14
+175,2873,Simvastatin,50 mg - Typical for medications like Sertraline (used for depression).,2005-10-27,1978-10-01
+7362,502,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1977-07-05,1999-11-15
+7184,2699,Simvastatin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2017-06-17,1983-06-11
+4033,1789,Cetirizine,250 mg - Often used for medications like Azithromycin.,1984-09-06,2006-06-25
+4899,5983,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,1996-09-27,2004-07-10
+8521,169,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1980-01-10,2004-06-24
+3799,9215,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1993-01-09,2022-11-24
+1453,4193,Amoxicillin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2013-06-15,1975-05-16
+6401,9428,Paracetamol,250 mg - Often used for medications like Azithromycin.,1986-11-13,2001-08-29
+220,6163,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,1980-11-01,2010-05-24
+2501,908,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,1978-04-28,2008-01-21
+4555,2194,Ibuprofen,10 mg - Typical for medications like Lisinopril (used for blood pressure).,1986-06-22,1998-01-19
+8604,1094,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,1990-05-25,2017-02-06
+5922,9737,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2009-09-12,2002-07-22
+1423,2477,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,2015-07-08,2015-06-04
+3350,688,Cetirizine,100 mg - Common for medications like Metoprolol (used for heart conditions).,1979-05-17,2004-03-13
+7880,6577,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2020-04-19,2004-06-30
+1713,6466,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2005-12-17,2004-11-17
+1781,2456,Metformin,500 mg - Common for antibiotics like Amoxicillin.,2001-08-23,2016-11-27
+2251,5398,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2006-09-26,1980-10-06
+9921,6474,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1977-04-08,1975-12-26
+3945,734,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1980-12-13,1998-06-16
+6423,9171,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2004-06-27,1984-04-18
+1012,3228,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2010-02-22,2016-04-30
+9239,1915,Paracetamol,500 mg - Common for antibiotics like Amoxicillin.,2019-11-22,2004-06-24
+8196,5180,Simvastatin,5 mg - Common for medications like Amlodipine (used for hypertension).,1991-07-11,1981-03-20
+9894,5761,Metformin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2006-11-06,1970-02-02
+9345,2873,Paracetamol,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2007-03-25,2013-02-12
+7714,9280,Cetirizine,1 mg,2024-04-02,2005-03-30
+3752,1789,Cetirizine,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2007-02-18,2017-10-16
+2618,181,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,2014-04-01,2024-07-08
+8179,227,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1971-05-19,1984-04-12
+8336,1904,Amoxicillin,5 mg - Common for medications like Amlodipine (used for hypertension).,1978-03-20,1994-07-08
+7452,9373,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2009-06-11,1983-07-29
+5419,6637,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,1997-01-18,2008-01-09
+3162,8382,Ibuprofen,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2013-08-24,2004-02-26
+1954,233,Metformin,50 mg - Typical for medications like Sertraline (used for depression).,1988-06-21,2009-11-30
+2117,3648,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2015-07-20,1988-09-26
+1181,897,Ibuprofen,100 mg - Common for medications like Metoprolol (used for heart conditions).,1988-11-25,1984-12-25
+8029,4897,Ibuprofen,50 mg - Typical for medications like Sertraline (used for depression).,2015-03-12,2014-02-25
+2116,4746,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2016-05-10,2000-08-28
+9093,3287,Metformin,1 mg,2012-03-22,1982-09-14
+1896,3275,Simvastatin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2017-05-06,2013-09-17
+7423,3504,Amoxicillin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2016-07-26,1975-06-05
+8926,6952,Amoxicillin,500 mg - Common for antibiotics like Amoxicillin.,1970-04-13,1977-08-02
+7497,9459,Paracetamol,1 mg,2015-11-08,1996-01-25
+1873,7806,Metformin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1999-02-05,1976-02-19
+9160,7828,Cetirizine,250 mg - Often used for medications like Azithromycin.,2015-03-04,2005-06-27
+2177,5911,Cetirizine,5 mg - Common for medications like Amlodipine (used for hypertension).,1975-11-06,2001-04-30
+268,7444,Paracetamol,50 mg - Typical for medications like Sertraline (used for depression).,2012-02-12,2011-09-28
+2973,227,Ibuprofen,20 mg - Often used for medications like Omeprazole (used for acid reflux).,1971-08-21,2024-04-29
+2837,5898,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2007-11-20,2005-08-10
+9784,7296,Ibuprofen,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,2013-05-14,1974-06-08
+8449,6827,Paracetamol,100 mg - Common for medications like Metoprolol (used for heart conditions).,1982-01-14,1982-11-17
+3590,765,Paracetamol,250 mg - Often used for medications like Azithromycin.,1987-08-30,1999-01-31
+4943,1156,Simvastatin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2017-06-30,2011-12-29
+2018,9424,Cetirizine,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2004-11-17,1990-07-20
+635,7127,Paracetamol,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2013-08-19,2008-11-05
+966,6620,Metformin,250 mg - Often used for medications like Azithromycin.,1981-02-18,1978-11-30
+3900,7621,Simvastatin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2005-11-10,1983-08-31
+4347,7843,Cetirizine,500 mg - Common for antibiotics like Amoxicillin.,2009-02-28,1987-06-17
+153,5504,Metformin,20 mg - Often used for medications like Omeprazole (used for acid reflux).,2012-03-30,1980-10-20
+6196,9572,Metformin,5 mg - Common for medications like Amlodipine (used for hypertension).,1987-02-16,1991-04-01
+5847,7444,Ibuprofen,250 mg - Often used for medications like Azithromycin.,1970-01-22,1996-12-31
+5746,6163,Paracetamol,5 mg - Common for medications like Amlodipine (used for hypertension).,1976-08-25,2002-08-02
+1700,3557,Amoxicillin,10 mg - Typical for medications like Lisinopril (used for blood pressure).,2022-09-09,1995-11-18
+3037,7186,Paracetamol,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1979-07-24,2001-07-11
+6647,8413,Amoxicillin,75 mg - Often used for medications like Clopidogrel (used for blood thinning).,2020-06-26,2019-05-07
+7671,8870,Amoxicillin,50 mg - Typical for medications like Sertraline (used for depression).,1981-09-16,1997-12-11
+6995,6245,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,2000-09-14,1970-12-28
+8504,1323,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1986-04-30,2017-03-16
+2615,1519,Simvastatin,500 mg - Common for antibiotics like Amoxicillin.,1985-08-29,1981-11-15
+9840,453,Simvastatin,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1992-10-25,1994-02-16
+8562,8307,Amoxicillin,100 mg - Common for medications like Metoprolol (used for heart conditions).,1975-10-13,2010-10-29
+7135,2316,Cetirizine,40 mg - Typical for medications like Atorvastatin (used for cholesterol).,1991-03-22,2021-05-18

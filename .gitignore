@@ -8,7 +8,7 @@ amplify/mock-data
 amplify/mock-api-resources
 amplify/backend/amplify-meta.json
 amplify/backend/.temp
-amplify/backend/function/idg3devlambdaLayer/lib/*
+amplify/backend/function/idg3devlambdaLayer/lib/python/lib/python3.10/site-packages/*
 build/
 dist/
 node_modules/
@@ -20,4 +20,5 @@ amplify-gradle-config.json
 amplifytools.xcconfig
 .secret-*
 **.sample
+venv/
 #amplify-do-not-edit-end

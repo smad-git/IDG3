@@ -1,7 +1,15 @@
 {
   "api": {
-    "idg3Api": {
+    "idg3api": {
       "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "patientSearch"
+        },
         {
           "attributes": [
             "Name",
@@ -22,6 +30,12 @@
       "service": "LambdaLayer"
     },
     "patientMigration": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "patientSearch": {
       "build": true,
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
@@ -58,6 +72,22 @@
         {
           "category": "function",
           "resourceName": "patientMigration"
+        }
+      ]
+    },
+    "AMPLIFY_function_patientSearch_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "patientSearch"
+        }
+      ]
+    },
+    "AMPLIFY_function_patientSearch_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "patientSearch"
         }
       ]
     }
