@@ -2,7 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { IconButton, InputBase, Paper } from '@mui/material';
 import { Mic, Search } from '@mui/icons-material';
 
-const SearchBar: React.FC = () => {
+interface SearchBarProps {
+  onSearchChange: (searchTerm: string) => void;
+}
+
+const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [listening, setListening] = useState(false);
 
@@ -20,6 +24,7 @@ const SearchBar: React.FC = () => {
     recognition.onresult = (event: any) => {
       const transcript = event.results[0][0].transcript;
       setSearchQuery(transcript);
+      onSearchChange(transcript); // Update parent with voice input
     };
 
     recognition.onend = () => {
@@ -35,7 +40,13 @@ const SearchBar: React.FC = () => {
     return () => {
       recognition.stop();
     };
-  }, [listening]);
+  }, [listening, onSearchChange]);
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setSearchQuery(value);
+    onSearchChange(value); // Update parent on input change
+  };
 
   const handleVoiceSearch = () => {
     setListening((prevState) => !prevState);
@@ -55,10 +66,10 @@ const SearchBar: React.FC = () => {
     >
       <InputBase
         sx={{ ml: 1, flex: 1 }}
-        placeholder="Search by Patient Name, condions..."
+        placeholder="Search by Patient Name, conditions..."
         inputProps={{ 'aria-label': 'search' }}
         value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
+        onChange={handleInputChange}
       />
       <IconButton type="submit" sx={{ p: '10px' }} aria-label="search">
         <Search />
