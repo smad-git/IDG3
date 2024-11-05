@@ -19,6 +19,26 @@
     "functionidg3devlambdalayerArn": {
       "Type": "String",
       "Default": "functionidg3devlambdalayerArn"
+    },
+    "VpcId": {
+      "Type": "AWS::EC2::VPC::Id",
+      "Description": "VPC ID for Lambda function",
+      "Default": "vpc-0e9239f4e26b1175e"
+    },
+    "Subnet1": {
+      "Type": "AWS::EC2::Subnet::Id",
+      "Description": "Subnet ID for Lambda function",
+      "Default": "subnet-0f826a7bb53a0014a"
+    },
+    "Subnet2": {
+      "Type": "AWS::EC2::Subnet::Id",
+      "Description": "Second Subnet ID for Lambda function",
+      "Default": "subnet-060de60d8ea01c036"
+    },
+    "SecurityGroup": {
+      "Type": "AWS::EC2::SecurityGroup::Id",
+      "Description": "Security Group ID for Lambda function",
+      "Default": "sg-00d9e085e9a8ca227"
     }
   },
   "Conditions": {
@@ -88,7 +108,22 @@
             "Ref": "functionidg3devlambdalayerArn"
           }
         ],
-        "Timeout": 25
+        "Timeout": 25,
+        "VpcConfig": {
+          "SecurityGroupIds": [
+            {
+              "Ref": "SecurityGroup"
+            }
+          ],
+          "SubnetIds": [
+            {
+              "Ref": "Subnet1"
+            },
+            {
+              "Ref": "Subnet2"
+            }
+          ]
+        }
       }
     },
     "LambdaExecutionRole": {
@@ -184,9 +219,6 @@
                     },
                     "account": {
                       "Ref": "AWS::AccountId"
-                    },
-                    "lambda": {
-                      "Ref": "LambdaFunction"
                     }
                   }
                 ]
