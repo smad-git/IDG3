@@ -15,11 +15,11 @@
       "function": {
         "patientMigration": {
           "deploymentBucketName": "amplify-idg3dev-dev-dccb7-deployment",
-          "s3Key": "amplify-builds/patientMigration-463258545a7263697036-build.zip"
+          "s3Key": "amplify-builds/patientMigration-436a77747971677a656a-build.zip"
         },
         "idg3devlambdalayer": {
           "deploymentBucketName": "amplify-idg3dev-dev-dccb7-deployment",
-          "s3Key": "amplify-builds/idg3devlambdalayer-LambdaLayerVersion134b073e-build.zip"
+          "s3Key": "amplify-builds/idg3devlambdalayer-LambdaLayerVersionc3372549-build.zip"
         }
       },
       "api": {
