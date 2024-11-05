@@ -9,6 +9,6 @@
     "amplify/backend/awscloudformation": true
   },
   "python.analysis.extraPaths": [
-    "./amplify/backend/function/idg3devlambdaLayer/lib/python"
+    "./amplify/backend/function/idg3devlambdaLayer/lib/python/lib/python3.10/site-packages"
   ]
 }

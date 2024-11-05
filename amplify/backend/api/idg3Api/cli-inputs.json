@@ -1,13 +1,6 @@
 {
   "version": 1,
   "paths": {
-    "/patientSearch": {
-      "name": "/patientSearch",
-      "lambdaFunction": "patientSearch",
-      "permissions": {
-        "setting": "open"
-      }
-    },
     "/patientMigration": {
       "name": "/patientMigration",
       "lambdaFunction": "patientMigration",

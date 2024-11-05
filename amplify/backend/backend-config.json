@@ -8,14 +8,6 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "patientSearch"
-        },
-        {
-          "attributes": [
-            "Name",
-            "Arn"
-          ],
-          "category": "function",
           "resourceName": "patientMigration"
         }
       ],
@@ -24,38 +16,40 @@
     }
   },
   "function": {
-    "idg3devlambdaLayer": {
+    "idg3devlambdalayer": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "LambdaLayer"
     },
     "patientMigration": {
       "build": true,
-      "dependsOn": [],
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    },
-    "patientSearch": {
-      "build": true,
-      "dependsOn": [],
+      "dependsOn": [
+        {
+          "attributes": [
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "idg3devlambdalayer"
+        }
+      ],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "parameters": {
-    "AMPLIFY_function_idg3devlambdaLayer_deploymentBucketName": {
+    "AMPLIFY_function_idg3devlambdalayer_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "idg3devlambdaLayer"
+          "resourceName": "idg3devlambdalayer"
         }
       ]
     },
-    "AMPLIFY_function_idg3devlambdaLayer_s3Key": {
+    "AMPLIFY_function_idg3devlambdalayer_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "idg3devlambdaLayer"
+          "resourceName": "idg3devlambdalayer"
         }
       ]
     },
@@ -72,22 +66,6 @@
         {
           "category": "function",
           "resourceName": "patientMigration"
-        }
-      ]
-    },
-    "AMPLIFY_function_patientSearch_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "patientSearch"
-        }
-      ]
-    },
-    "AMPLIFY_function_patientSearch_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "patientSearch"
         }
       ]
     }

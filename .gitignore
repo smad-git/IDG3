@@ -8,7 +8,8 @@ amplify/mock-data
 amplify/mock-api-resources
 amplify/backend/amplify-meta.json
 amplify/backend/.temp
-amplify/backend/function/idg3devlambdaLayer/lib/python/lib/python3.10/site-packages/*
+amplify/backend/function/idg3devlambdaLayer/lib/python/lib/python3.10/site-packages/
+!amplify/backend/function/idg3devlambdaLayer/lib/python/lib/python3.10/site-packages/patient_shared_functions/
 build/
 dist/
 node_modules/
@@ -21,4 +22,5 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 venv/
+.temp/
 #amplify-do-not-edit-end
