@@ -79,7 +79,7 @@ export const PatientSearch: React.FC<PropsWithChildren> = () => {
 
   useEffect(() => {
     patientSearch();
-  });
+  }, []);
 
   const patientSearch = async () => {
     const { response, cancel } = post({

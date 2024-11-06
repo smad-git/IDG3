@@ -21,9 +21,52 @@
       "providerPlugin": "awscloudformation",
       "service": "LambdaLayer"
     },
+    "migratePatients": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "idg3devlambdalayer"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "patientMigration": {
       "build": true,
       "dependsOn": [
+        {
+          "attributes": [
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "idg3devlambdalayer"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "populatePatients": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "patientMigration"
+        },
+        {
+          "attributes": [
+            "ApiName",
+            "ApiId"
+          ],
+          "category": "api",
+          "resourceName": "idg3api"
+        },
         {
           "attributes": [
             "Arn"
@@ -53,6 +96,22 @@
         }
       ]
     },
+    "AMPLIFY_function_migratePatients_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "migratePatients"
+        }
+      ]
+    },
+    "AMPLIFY_function_migratePatients_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "migratePatients"
+        }
+      ]
+    },
     "AMPLIFY_function_patientMigration_deploymentBucketName": {
       "usedBy": [
         {
@@ -66,6 +125,22 @@
         {
           "category": "function",
           "resourceName": "patientMigration"
+        }
+      ]
+    },
+    "AMPLIFY_function_populatePatients_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "populatePatients"
+        }
+      ]
+    },
+    "AMPLIFY_function_populatePatients_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "populatePatients"
         }
       ]
     }

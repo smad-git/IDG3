@@ -1,6 +1,6 @@
 import json
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy import create_engine, or_, and_
+from sqlalchemy.orm import sessionmaker, joinedload
+from sqlalchemy import create_engine, or_
 from sqlalchemy.exc import SQLAlchemyError
 from patient_shared_functions.db_client import DatabaseConnectionPool
 import logging
@@ -44,7 +44,8 @@ def build_search_query(filters, session):
     query = session.query(Patient)\
         .outerjoin(Encounter, Patient.id == Encounter.patient_id)\
         .outerjoin(Condition, Encounter.id == Condition.encounter_id)\
-        .outerjoin(Medication, Encounter.id == Medication.encounter_id)
+        .outerjoin(Medication, Encounter.id == Medication.encounter_id)\
+        .distinct(Patient.id)  # Ensure distinct patients are selected
 
     for field, value in filters.items():
         # Convert camelCase to snake_case
@@ -135,7 +136,6 @@ def serialize_results(results):
     return serialized_results
 
 # Lambda function handler
-# Lambda function handler
 def handler(event, context):
     # Ensure that the body is a JSON string
     body = event.get('body')
@@ -147,7 +147,7 @@ def handler(event, context):
 
     # Safely extract page and page_size from queryStringParameters
     page = 1  # default page
-    page_size = 10  # default page size
+    page_size = 50  # default page size
 
     if event.get('queryStringParameters'):
         query_params = event['queryStringParameters']
@@ -165,7 +165,7 @@ def handler(event, context):
         # Build the query with the filters applied
         query = build_search_query(filters, session)
 
-        # Get the total count of matching records (including all records if no filters)
+        # Get the total count of matching distinct patient records
         total_count = query.with_entities(Patient.id).distinct().count()
 
         # Apply pagination to the query
