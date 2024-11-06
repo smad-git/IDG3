@@ -135,6 +135,7 @@ def serialize_results(results):
     return serialized_results
 
 # Lambda function handler
+# Lambda function handler
 def handler(event, context):
     # Ensure that the body is a JSON string
     body = event.get('body')
@@ -142,10 +143,7 @@ def handler(event, context):
     if isinstance(body, str):
         filters = json.loads(body)  # Extract filters from POST request body
     else:
-        return {
-            'statusCode': 400,
-            'body': json.dumps({'error': 'Invalid request body format'})
-        }
+        filters = {}  # No filters provided
 
     # Safely extract page and page_size from queryStringParameters
     page = 1  # default page
@@ -167,8 +165,8 @@ def handler(event, context):
         # Build the query with the filters applied
         query = build_search_query(filters, session)
 
-        # Get the total count of matching records
-        total_count = query.with_entities(Patient.id).distinct().count()  # Adjust this as needed for your data model
+        # Get the total count of matching records (including all records if no filters)
+        total_count = query.with_entities(Patient.id).distinct().count()
 
         # Apply pagination to the query
         paginated_query = paginate_query(query, page, page_size)
@@ -184,7 +182,10 @@ def handler(event, context):
                 'results': serialized_results  # Paginated results
             }),
             'headers': {
-                'Content-Type': 'application/json'
+                 'Content-Type': 'application/json',
+                 'Access-Control-Allow-Origin': '*',  
+                 'Access-Control-Allow-Headers': 'Content-Type',  
+                 'Access-Control-Allow-Methods': 'OPTIONS,GET,POST'  
             }
         }
 
@@ -196,4 +197,5 @@ def handler(event, context):
         }
     
     finally:
-        db_pool.return_connection(connection)  # Return the DB connection back to the pool
+        # Return the DB connection back to the pool
+        db_pool.return_connection(connection)

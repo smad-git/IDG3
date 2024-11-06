@@ -15,7 +15,7 @@
       "function": {
         "patientMigration": {
           "deploymentBucketName": "amplify-idg3dev-dev-dccb7-deployment",
-          "s3Key": "amplify-builds/patientMigration-63673572334957415a63-build.zip"
+          "s3Key": "amplify-builds/patientMigration-6469444f34754d4d4358-build.zip"
         },
         "idg3devlambdalayer": {
           "deploymentBucketName": "amplify-idg3dev-dev-dccb7-deployment",

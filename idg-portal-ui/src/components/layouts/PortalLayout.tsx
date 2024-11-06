@@ -6,8 +6,6 @@ import { ThemeContextProvider } from '../contexts/ThemeContext';
 import Header from '../main/Header';
 import Body from '../main/Body';
 import PortalBodyLayout, { DrawerItem } from './PortalBodyLayout';
-import {  ApiError, get, isCancelError } from 'aws-amplify/api';
-import awsmobile from '../../aws-exports';
 
 export interface PortalLayoutProps {
   children: React.ReactNode;
@@ -22,28 +20,9 @@ const PortalLayout: React.FC<PortalLayoutProps> = ({
 }) => {
   const [openDrawer, setOpenDrawer] = useState(false);
 
-  useEffect(() => {
-    getTodo()
-  }, [])
-
   const toggleDrawer = () => {
     setOpenDrawer(!openDrawer);
   };
-
-  async function getTodo() {
-    try {
-      const restOperation = get({ 
-        apiName: `${awsmobile.aws_cloud_logic_custom[0].name}`,
-        path: '/patientMigration' 
-      });
-      const response = await restOperation.response;
-      console.log('GET call succeeded: ', response);
-    } catch (e: unknown) {
-      if (e instanceof ApiError) {
-        console.log(e.response?.body)
-      }
-    }
-  }
 
   return (
     <ThemeContextProvider>
