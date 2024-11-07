@@ -98,7 +98,7 @@ const RecentSearchChip: React.FC<ChipContainerProps> = ({ filteredSearches, hand
               backgroundColor:
                 theme.palette.mode === 'dark'
                   ? theme.palette.background.paper // Dark mode: background is paper
-                  : theme.palette.common.white, // Light mode: background is white
+                  : theme.palette.primary.light, // Light mode: background is white
               color: theme.palette.primary.contrastText,
               cursor: 'pointer',
               margin: '2px',
@@ -117,11 +117,8 @@ const RecentSearchChip: React.FC<ChipContainerProps> = ({ filteredSearches, hand
                   {i < arr.length - 1 && (
                     <span
                       style={{
-                        backgroundColor:
-                          theme.palette.mode === 'dark'
-                            ? theme.palette.secondary.main // Highlight in dark mode
-                            : theme.palette.primary.main, // Highlight in light mode
-                        color: theme.palette.primary.contrastText,
+                        fontWeight: 'bold',
+                        fontSize: '16px'
                       }}
                     >
                       {item.matchedText}

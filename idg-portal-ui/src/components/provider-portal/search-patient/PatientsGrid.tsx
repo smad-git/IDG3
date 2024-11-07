@@ -47,7 +47,14 @@ const PatientsGrid: React.FC<PatientsListProps> = ({
 
   return (
     <Box sx={{ padding: 2 }}>
-      <Typography variant="h5" sx={{ marginBottom: 2 }}>
+      <Typography
+        variant="h5"
+        sx={{
+          marginBottom: 2,
+          fontWeight: 600,
+          color: `${theme.palette.mode === 'dark' ? '#fff' : theme.palette.primary.main}`,
+        }}
+      >
         Patient Search Results
       </Typography>
 

@@ -8,6 +8,7 @@ import {
   Divider,
   Pagination,
   Grid,
+  useTheme,
 } from '@mui/material';
 import { ExpandMore, ExpandLess } from '@mui/icons-material';
 import { PatientsListProps } from './Patients';
@@ -18,6 +19,7 @@ const PatientStack: React.FC<PatientsListProps> = ({
   page,
   onPageChange,
 }) => {
+  const theme = useTheme();
   const [expandedPatient, setExpandedPatient] = useState<string | null>(null);
   const itemsPerPage = 20; // Number of patients to show per page
 
@@ -25,7 +27,7 @@ const PatientStack: React.FC<PatientsListProps> = ({
     setExpandedPatient((prev) => (prev === patientId ? null : patientId));
   };
 
-   const handleChangePage = (
+  const handleChangePage = (
     event: React.ChangeEvent<unknown>,
     value: number
   ) => {
@@ -35,8 +37,12 @@ const PatientStack: React.FC<PatientsListProps> = ({
   return (
     <Box sx={{ padding: 3 }}>
       <Typography
-        variant="h4"
-        sx={{ marginBottom: 3, fontWeight: 600, color: 'primary.main' }}
+        variant="h5"
+        sx={{
+          marginBottom: 2,
+          fontWeight: 600,
+          color: `${theme.palette.mode === 'dark' ? '#fff' : theme.palette.primary.main}`,
+        }}
       >
         Patient Search Results
       </Typography>
