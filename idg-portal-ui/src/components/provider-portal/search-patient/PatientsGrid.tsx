@@ -24,13 +24,13 @@ import ResponsivePagination from './ResponsivePagination';
 const PatientsGrid: React.FC<PatientsListProps> = ({
   patients,
   totalCount,
-  page, 
-  onPageChange
+  page,
+  onPageChange,
 }) => {
   const [expandedPatientId, setExpandedPatientId] = useState<string | null>(
     null
   );
-  const rowsPerPage = 100;
+  const rowsPerPage = 20;
 
   const theme = useTheme(); // Accessing the current theme
 
@@ -52,38 +52,59 @@ const PatientsGrid: React.FC<PatientsListProps> = ({
       </Typography>
 
       <TableContainer component={Paper}>
-        <Table stickyHeader>
+        <Table stickyHeader sx={{ width: '100%', tableLayout: 'auto' }}>
           <TableHead>
             <TableRow>
-              <TableCell
-                sx={{
-                  width: '20%',
-                  backgroundColor:
-                    theme.palette.mode === 'dark' ? '#333' : '#f0f0f0',
-                  color: theme.palette.mode === 'dark' ? '#fff' : '#000',
-                }}
-              >
-                Full Name
-              </TableCell>
               <TableCell
                 sx={{
                   width: '15%',
                   backgroundColor:
                     theme.palette.mode === 'dark' ? '#333' : '#f0f0f0',
                   color: theme.palette.mode === 'dark' ? '#fff' : '#000',
+                  padding: '16px',
+                  '@media (max-width:1024px)': {
+                    width: '18%',
+                  },
+                  '@media (max-width:768px)': {
+                    width: '25%',
+                  },
+                }}
+              >
+                Full Name
+              </TableCell>
+              <TableCell
+                sx={{
+                  width: '20%',
+                  backgroundColor:
+                    theme.palette.mode === 'dark' ? '#333' : '#f0f0f0',
+                  color: theme.palette.mode === 'dark' ? '#fff' : '#000',
+                  padding: '16px',
+                  '@media (max-width:1024px)': {
+                    width: '22%',
+                  },
+                  '@media (max-width:768px)': {
+                    width: '30%',
+                  },
                 }}
               >
                 Email
               </TableCell>
               <TableCell
                 sx={{
-                  width: '10%',
+                  width: '20%',
                   backgroundColor:
                     theme.palette.mode === 'dark' ? '#333' : '#f0f0f0',
                   color: theme.palette.mode === 'dark' ? '#fff' : '#000',
+                  padding: '16px',
+                  '@media (max-width:1024px)': {
+                    width: '25%',
+                  },
+                  '@media (max-width:768px)': {
+                    width: '35%',
+                  },
                 }}
               >
-                Status
+                Address
               </TableCell>
               <TableCell
                 sx={{
@@ -91,6 +112,30 @@ const PatientsGrid: React.FC<PatientsListProps> = ({
                   backgroundColor:
                     theme.palette.mode === 'dark' ? '#333' : '#f0f0f0',
                   color: theme.palette.mode === 'dark' ? '#fff' : '#000',
+                  padding: '16px',
+                  '@media (max-width:1024px)': {
+                    width: '12%',
+                  },
+                  '@media (max-width:768px)': {
+                    width: '15%',
+                  },
+                }}
+              >
+                Status
+              </TableCell>
+              <TableCell
+                sx={{
+                  width: '8%',
+                  backgroundColor:
+                    theme.palette.mode === 'dark' ? '#333' : '#f0f0f0',
+                  color: theme.palette.mode === 'dark' ? '#fff' : '#000',
+                  padding: '16px',
+                  '@media (max-width:1024px)': {
+                    width: '10%',
+                  },
+                  '@media (max-width:768px)': {
+                    width: '12%',
+                  },
                 }}
               >
                 Gender
@@ -101,26 +146,47 @@ const PatientsGrid: React.FC<PatientsListProps> = ({
                   backgroundColor:
                     theme.palette.mode === 'dark' ? '#333' : '#f0f0f0',
                   color: theme.palette.mode === 'dark' ? '#fff' : '#000',
+                  padding: '16px',
+                  '@media (max-width:1024px)': {
+                    width: '12%',
+                  },
+                  '@media (max-width:768px)': {
+                    width: '15%',
+                  },
                 }}
               >
                 Race
               </TableCell>
               <TableCell
                 sx={{
-                  width: '15%',
+                  width: '7%',
                   backgroundColor:
                     theme.palette.mode === 'dark' ? '#333' : '#f0f0f0',
                   color: theme.palette.mode === 'dark' ? '#fff' : '#000',
+                  padding: '16px',
+                  '@media (max-width:1024px)': {
+                    width: '10%',
+                  },
+                  '@media (max-width:768px)': {
+                    width: '12%',
+                  },
                 }}
               >
                 DOB
               </TableCell>
               <TableCell
                 sx={{
-                  width: '20%',
+                  width: '10%',
                   backgroundColor:
                     theme.palette.mode === 'dark' ? '#333' : '#f0f0f0',
                   color: theme.palette.mode === 'dark' ? '#fff' : '#000',
+                  padding: '16px',
+                  '@media (max-width:1024px)': {
+                    width: '15%',
+                  },
+                  '@media (max-width:768px)': {
+                    width: '18%',
+                  },
                 }}
               >
                 Encounters
@@ -136,6 +202,7 @@ const PatientsGrid: React.FC<PatientsListProps> = ({
                     {patient.firstName} {patient.lastName}
                   </TableCell>
                   <TableCell>{patient.email}</TableCell>
+                  <TableCell>{patient.address}</TableCell>
                   <TableCell>{patient.status}</TableCell>
                   <TableCell>{patient.gender}</TableCell>
                   <TableCell>{patient.race}</TableCell>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import SearchBar, { SearchCriteria } from './SearchBar';
-import { IconButton, Box } from '@mui/material';
+import { IconButton, Box, useTheme, useMediaQuery } from '@mui/material';
 import { post, isCancelError } from 'aws-amplify/api';
 import awsmobile from '../../../aws-exports';
 import PatientStack from './PatientStack';
@@ -9,11 +9,6 @@ import PatientsCard from './PatientsCard';
 import PatientsGrid from './PatientsGrid';
 import { useLoading } from '../../contexts/LoadingContext';
 
-interface ColumnConfig {
-  key: string;
-  label: string;
-  width?: string;
-}
 interface ResponsePayload {
   totalCount: number;
   results: any;
@@ -21,16 +16,6 @@ interface ResponsePayload {
 interface PropsWithChildren<T = {}> {
   children?: React.ReactNode;
 }
-
-// Sample JSON data and column configuration
-export const columnConfig: ColumnConfig[] = [
-  { key: 'name', label: 'Name', width: '20%' },
-  { key: 'dateOfBirth', label: 'DOB', width: '20%' },
-  { key: 'email', label: 'Email', width: '20%' },
-  { key: 'address', label: 'Phone', width: '20%' },
-  { key: 'procedure', label: 'Procedure', width: '20%' },
-  { key: 'doctor', label: 'Doctor', width: '20%' },
-];
 
 export const PatientSearch: React.FC<PropsWithChildren> = () => {
   const [data, setData] = useState<ResponsePayload>({
@@ -54,7 +39,7 @@ export const PatientSearch: React.FC<PropsWithChildren> = () => {
   const patientSearch = async (
     searchQuery: any,
     page: number,
-    pageSize: number = 100
+    pageSize: number = 20
   ) => {
     setLoading(true);
     const { response, cancel } = post({
@@ -98,25 +83,40 @@ export const PatientSearch: React.FC<PropsWithChildren> = () => {
     encounterDateRange: [null, null],
   });
 
+  const theme = useTheme();
+  // Check for screen width and orientation
+  const isSmallScreen = useMediaQuery('(max-width: 1180px)'); // If screen width is <= 1180px
+  const isLargeScreen = useMediaQuery('(min-width: 1181px)'); // If screen width is > 1180px
+  const isLandscape = useMediaQuery('(orientation: landscape)'); // Check for landscape orientation
+
+  // Show Grid Layout (Table) for screens > 1180px or iPad in Landscape
+  // Show Card Layout for screens <= 1180px or iPad in Portrait
+  const shouldShowGridLayout = isLargeScreen || (isLandscape && !isSmallScreen); // Grid for larger screens and iPad landscape
+
   const onSearchChange = (updatedFilters: SearchCriteria) => {
     setFilters(updatedFilters);
     const filteredData = Object.fromEntries(
       Object.entries(updatedFilters)
-        .filter(([key, value]) =>
-          value !== null &&
-          value !== '' &&
-          (typeof value === 'string' ? value.trim() !== '' : true) &&
-          (Array.isArray(value) ? value.some(v => v !== null) : true)
+        .filter(
+          ([key, value]) =>
+            value !== null &&
+            value !== '' &&
+            (typeof value === 'string' ? value.trim() !== '' : true) &&
+            (Array.isArray(value) ? value.some((v) => v !== null) : true)
         )
-        .map(([key, value]) => 
-          [key, Array.isArray(value) ? value.map(v => typeof v === 'string' ? v.trim() : v) : (typeof value === 'string' ? value.trim() : value)]
-        )
+        .map(([key, value]) => [
+          key,
+          Array.isArray(value)
+            ? value.map((v) => (typeof v === 'string' ? v.trim() : v))
+            : typeof value === 'string'
+              ? value.trim()
+              : value,
+        ])
     );
     patientSearch(filteredData, page);
   };
 
   const onPageChange = (page: number) => {
-
     const filteredData = Object.fromEntries(
       Object.entries(filters).filter(
         ([key, value]) =>
@@ -131,11 +131,28 @@ export const PatientSearch: React.FC<PropsWithChildren> = () => {
   return (
     <>
       <Box>
-        <SearchBar onSearchChange={onSearchChange}/>
-        <PatientsGrid patients={data.results} totalCount={data.totalCount} onPageChange={onPageChange} page={page}/>
-         {/* <PatientsCard patients={data.results} totalCount={data.totalCount} onPageChange={onPageChange} page={page}/> 
-          
-        <PatientStack patients={data.results} totalCount={data.totalCount} onPageChange={onPageChange} page={page}/>  */}
+        <SearchBar onSearchChange={onSearchChange} />
+        {/* Show GridLayout for screens > 1180px or iPad in Landscape mode */}
+        {shouldShowGridLayout ? (
+          <PatientsGrid
+            patients={data.results}
+            totalCount={data.totalCount}
+            onPageChange={onPageChange}
+            page={page}
+          />
+        ) : null}
+
+        {/* Show CardLayout for screens <= 1180px or iPad in Portrait mode */}
+        {!shouldShowGridLayout ? (
+          <PatientStack
+            patients={data.results}
+            totalCount={data.totalCount}
+            onPageChange={onPageChange}
+            page={page}
+          />
+        ) : null}
+
+        {/* <PatientsCard patients={data.results} totalCount={data.totalCount} onPageChange={onPageChange} page={page}/> */}
       </Box>
     </>
   );

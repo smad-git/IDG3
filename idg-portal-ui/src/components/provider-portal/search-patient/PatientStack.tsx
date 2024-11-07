@@ -19,7 +19,7 @@ const PatientStack: React.FC<PatientsListProps> = ({
   onPageChange,
 }) => {
   const [expandedPatient, setExpandedPatient] = useState<string | null>(null);
-  const itemsPerPage = 100; // Number of patients to show per page
+  const itemsPerPage = 20; // Number of patients to show per page
 
   const handleTogglePatientDetails = (patientId: string) => {
     setExpandedPatient((prev) => (prev === patientId ? null : patientId));
@@ -46,7 +46,8 @@ const PatientStack: React.FC<PatientsListProps> = ({
           gridTemplateColumns: {
             xs: 'repeat(1, 1fr)', // 1 card per row on extra-small screens
             sm: 'repeat(2, 1fr)', // 2 cards per row on small screens
-            md: 'repeat(3, 1fr)', // 3 cards per row on medium screens
+            md: 'repeat(2, 1fr)', // 2 cards per row on medium screens
+            lg: 'repeat(3, 1fr)', // 3 cards per row on medium screens
             xl: 'repeat(4, 1fr)', // 4 cards per row on extra-large screens
           },
           gap: '16px', // space between grid items

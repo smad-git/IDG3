@@ -1,9 +1,10 @@
 import json
 from sqlalchemy.orm import sessionmaker, joinedload
-from sqlalchemy import create_engine, or_, func
+from sqlalchemy import create_engine, or_, and_, func
 from sqlalchemy.exc import SQLAlchemyError
 from patient_shared_functions.db_client import DatabaseConnectionPool
 import logging
+from datetime import datetime
 from patient_shared_functions.sqlalchemy_models import Condition, Encounter, Medication, Patient
 
 # Configure logging
@@ -47,23 +48,59 @@ def build_search_query(filters, session):
         .outerjoin(Medication, Encounter.id == Medication.encounter_id)\
         .distinct(Patient.id)  # Ensure distinct patients are selected
 
+    # Check if 'unifiedSearch' is in filters and handle it first
+    if 'unifiedSearch' in filters:
+        search_term = f"%{filters['unifiedSearch']}%"
+        print(f"Applying unified search for: {search_term}")
+        query = query.filter(or_(
+            Patient.first_name.ilike(search_term),
+            Patient.last_name.ilike(search_term),
+            Patient.email.ilike(search_term),
+            Patient.address.ilike(search_term),
+            func.concat(Patient.first_name, ' ', Patient.last_name).ilike(search_term),  # Full name search
+            Encounter.reason.ilike(search_term),
+            Condition.condition_code.ilike(search_term),
+            Medication.medication_name.ilike(search_term)
+        ))
+
+    # Now, process the rest of the filters
     for field, value in filters.items():
+        # Skip 'unifiedSearch' as it is already processed
+        if field == 'unifiedSearch':
+            continue
+        
         # Convert camelCase to snake_case
         snake_case_field = FIELD_MAP.get(field, field)
 
-        if field == 'unifiedSearch':
-            # Perform a unified search across multiple fields with ilike
-            search_term = f"%{value}%"
-            query = query.filter(or_(
-                Patient.first_name.ilike(search_term),
-                Patient.last_name.ilike(search_term),
-                func.concat(Patient.first_name, ' ', Patient.last_name).ilike(search_term),  # Full name search
-                Patient.email.ilike(search_term),
-                Patient.address.ilike(search_term),
-                Encounter.reason.ilike(search_term),
-                Condition.condition_code.ilike(search_term),
-                Medication.medication_name.ilike(search_term)
-            ))
+        if field == 'encounterDateRange':
+            # Apply date range filter for encounter_date
+            date_range = filters.get('encounterDateRange')
+
+            if date_range and len(date_range) == 2:
+                start_date_str, end_date_str = date_range  # Unpack the date range
+                
+                # Log to verify the extracted start and end date
+                logger.info("Applying date range filter: %s - %s", start_date_str, end_date_str)
+                
+                try:
+                    # Ensure that start_date and end_date are in the correct datetime format
+                    start_date = datetime.strptime(start_date_str, "%Y-%m-%d")  # Convert to datetime object
+                    end_date = datetime.strptime(end_date_str, "%Y-%m-%d")  # Convert to datetime object
+                    
+                    # Apply the date range filter to the query
+                    query = query.filter(and_(
+                        Encounter.encounter_date >= start_date,
+                        Encounter.encounter_date <= end_date
+                    ))
+
+                    logger.info("Date range filter applied successfully: %s - %s", start_date, end_date)
+
+                except ValueError as e:
+                    logger.error("Error converting dates to datetime format: %s", e)
+                    # Handle error or raise exception if necessary
+
+            else:
+                logger.error("Invalid date range passed: %s", date_range)
         elif hasattr(Patient, snake_case_field):
             # Apply ilike for string-based fields
             if isinstance(value, str):
@@ -88,7 +125,7 @@ def build_search_query(filters, session):
                 query = query.filter(getattr(Medication, snake_case_field).ilike(f"%{value}%"))
             else:
                 query = query.filter(getattr(Medication, snake_case_field) == value)
-
+    print(query)
     return query
 
 # Apply pagination to the query

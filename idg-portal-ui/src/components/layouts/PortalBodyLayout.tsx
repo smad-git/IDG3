@@ -74,9 +74,10 @@ const PortalBodyLayout: React.FC<PortalBodyLayoutProps> = ({
                   <ListItemIcon
                     sx={{
                       color: isActive
-                        ? theme.palette.primary.main
+                        ? theme.palette.mode === 'dark' ? '#fff' : theme.palette.primary.main
                         : theme.palette.text.primary,
-                        alignItems: "center"
+                        alignItems: "center",
+                        justifyContent: "center"
                     }}
                   >
                     {item.icon}
@@ -157,7 +158,7 @@ const PortalBodyLayout: React.FC<PortalBodyLayoutProps> = ({
           marginLeft: {
             xs: 0,
             sm: 0,
-            md: openDrawer ? `${drawerWidthOpen}px` : `${drawerWidthClosed}px`,
+            md: `${drawerWidthClosed}px`,
           },
           transition: theme.transitions.create('margin-left', {
             easing: theme.transitions.easing.sharp,

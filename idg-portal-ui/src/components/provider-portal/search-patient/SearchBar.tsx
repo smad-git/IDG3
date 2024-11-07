@@ -21,6 +21,7 @@ import TuneIcon from '@mui/icons-material/Tune';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import CloseIcon from '@mui/icons-material/Close'; // Import Close Icon
 import _ from 'lodash';
+import RecentSearchChip from './RecentSearchChip';
 
 // Define the search criteria type
 export interface SearchCriteria {
@@ -171,7 +172,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
       const updatedSearches = [
         searchQuery.trim(),
         ...recentSearches.filter(
-          (term) => term.toLocaleLowerCase().trim() !== searchQuery.toLocaleLowerCase().trim()
+          (term) =>
+            term.toLocaleLowerCase().trim() !==
+            searchQuery.toLocaleLowerCase().trim()
         ),
       ];
       localStorage.setItem('recentSearches', JSON.stringify(updatedSearches));
@@ -334,6 +337,12 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
 
   const handleChipClick = (term: string) => {
     setSearchQuery(term);
+    const searchCriteriaCopy = {
+      ...searchCriteria,
+      unifiedSearch: searchQuery,
+    };
+    setSearchCriteria(searchCriteriaCopy);
+    onSearchChange(searchCriteriaCopy);
   };
 
   const handleClearSearch = () => {
@@ -420,29 +429,10 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
       </Box>
       <Box>
         {filteredSearches.length > 0 && (
-          <div className="chip-container">
-            {filteredSearches.map((item, index) => (
-              <div
-                key={index}
-                className="chip"
-                onClick={() => handleChipClick(item.originalTerm)}
-              >
-                {/* Display the matching text with highlight */}
-                {item.originalTerm
-                  .split(item.matchedText)
-                  .map((part, i, arr) => (
-                    <span key={i}>
-                      {part}
-                      {i < arr.length - 1 && (
-                        <span style={{ backgroundColor: 'yellow' }}>
-                          {item.matchedText}
-                        </span>
-                      )}
-                    </span>
-                  ))}
-              </div>
-            ))}
-          </div>
+          <RecentSearchChip
+            filteredSearches={filteredSearches}
+            handleChipClick={handleChipClick}
+          />
         )}
       </Box>
 
@@ -453,7 +443,12 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
       >
         <Typography
           variant="h6"
-          sx={{ marginBottom: 3, fontSize: '1rem !important', fontWeight: 600, color: 'primary.main' }}
+          sx={{
+            marginBottom: 3,
+            fontSize: '1rem !important',
+            fontWeight: 600,
+            color: `${theme.palette.mode === 'dark' ? '#fff' : theme.palette.primary.main}`,
+          }}
         >
           Applied Filters:
         </Typography>

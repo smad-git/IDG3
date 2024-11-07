@@ -8,12 +8,57 @@
   
   .chip {
     padding: 8px 12px;
-    background-color: #e0e0e0;
     border-radius: 16px;
     cursor: pointer;
     white-space: nowrap;
   }
-  
-  .chip:hover {
-    background-color: #c0c0c0;
+
+  .chip-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 8px;
+    padding: 8px 0;
+    max-width: 100%;
+    scrollbar-width: thin; /* For Firefox */
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
   }
+  
+  .chip {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chip-container .MuiIconButton-root {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  @media (max-width: 600px) {
+    .chip-container {
+      flex-wrap: nowrap;
+      padding: 4px 0;
+    }
+  
+    .chip {
+      font-size: 0.75rem;
+      padding: 4px 8px;
+    }
+  
+    .MuiIconButton-root {
+      display: block; /* Show arrows on mobile */
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .MuiIconButton-root {
+      display: none; /* Hide arrows on large screens */
+    }
+  }
+  
+  
