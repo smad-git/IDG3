@@ -128,9 +128,10 @@ export const PatientSearch: React.FC<PropsWithChildren> = () => {
     <>
       <Box>
         <SearchBar onSearchChange={onSearchChange}/>
-         <PatientsCard patients={data.results} totalCount={data.totalCount} onPageChange={onPageChange} page={page}/> 
         <PatientsGrid patients={data.results} totalCount={data.totalCount} onPageChange={onPageChange} page={page}/>
-        <PatientStack patients={data.results} totalCount={data.totalCount} onPageChange={onPageChange} page={page}/> 
+         {/* <PatientsCard patients={data.results} totalCount={data.totalCount} onPageChange={onPageChange} page={page}/> 
+          
+        <PatientStack patients={data.results} totalCount={data.totalCount} onPageChange={onPageChange} page={page}/>  */}
       </Box>
     </>
   );

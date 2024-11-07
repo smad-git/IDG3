@@ -1,1 +1,19 @@
-
+.chip-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 8px;
+    padding: 8px 0;
+    max-width: 100%;
+  }
+  
+  .chip {
+    padding: 8px 12px;
+    background-color: #e0e0e0;
+    border-radius: 16px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .chip:hover {
+    background-color: #c0c0c0;
+  }

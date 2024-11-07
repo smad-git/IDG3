@@ -16,7 +16,7 @@ import {
   useTheme,
   TextField,
 } from '@mui/material';
-import { Mic, Search } from '@mui/icons-material';
+import { Cancel, Mic, Search } from '@mui/icons-material';
 import TuneIcon from '@mui/icons-material/Tune';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import CloseIcon from '@mui/icons-material/Close'; // Import Close Icon
@@ -55,17 +55,67 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
   });
   const [showAppliedFilters, setShowAppliedFilters] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState<boolean>(false);
+  const [filteredSearches, setFilteredSearches] = useState<
+    { originalTerm: string; matchedText: string }[]
+  >([]);
 
   const theme = useTheme();
 
   // Debounce function using lodash.debounce
   const debouncedSearch = useCallback(
     _.debounce((query: string) => {
-      const searchCriteriaCopy = { ...searchCriteria, unifiedSearch: query };
-      onSearchChange(searchCriteriaCopy);
-    }, 500), // Debounce delay in milliseconds
-    [searchCriteria]
+      if (!query.trim()) {
+        setFilteredSearches([]); // Clear filtered results only when query is empty
+        return;
+      }
+
+      const recentSearches = getRecentSearches();
+
+      // Split the query into words and filter out empty strings
+      const queryWords = query
+        .toLowerCase()
+        .split(' ')
+        .filter((word) => word.trim() !== '');
+
+      const filtered = recentSearches
+        .map((term) => {
+          // Check if the term matches any of the query words (partial match for each word)
+          const matches = queryWords.map((word) =>
+            term.toLowerCase().includes(word)
+          );
+
+          // If at least one of the query words matches the term, include it
+          const isMatched = matches.some(Boolean); // If any word in the query matches
+
+          if (isMatched) {
+            // Highlight matching text
+            const matchedText = queryWords
+              .map((word) => {
+                const matchIndex = term.toLowerCase().indexOf(word);
+                return matchIndex !== -1
+                  ? term.slice(matchIndex, matchIndex + word.length)
+                  : '';
+              })
+              .join(' '); // Join all matched words
+            return { originalTerm: term, matchedText };
+          }
+
+          return null; // Return null if no match
+        })
+        .filter((item) => item !== null); // Remove null values from the result
+
+      setFilteredSearches(
+        filtered as { originalTerm: string; matchedText: string }[]
+      ); // Type casting
+    }, 500),
+    []
   );
+
+  // useEffect(() => {
+  //   if (searchQuery.length < 3) {
+  //     setFilteredSearches([]);
+  //   }
+  // }, [searchQuery]);
 
   useEffect(() => {
     if (!('webkitSpeechRecognition' in window)) {
@@ -104,14 +154,54 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setSearchQuery(value);
-
-    // Check if the input length is at least 3 characters before triggering the debounced search
+    if (value.length === 0) {
+      setFilteredSearches([]);
+      return;
+    }
     if (value.length >= 3) {
       debouncedSearch(value);
+    } else {
+      setFilteredSearches([]);
     }
+  };
 
-    const searchCriteriaCopy = { ...searchCriteria, unifiedSearch: value };
-    setSearchCriteria(searchCriteriaCopy);
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter' && searchQuery.length >= 3) {
+      const recentSearches = getRecentSearches();
+      const updatedSearches = [
+        searchQuery,
+        ...recentSearches.filter(
+          (term) => term.toLocaleLowerCase() !== searchQuery.toLocaleLowerCase()
+        ),
+      ];
+      localStorage.setItem('recentSearches', JSON.stringify(updatedSearches));
+
+      const searchCriteriaCopy = {
+        ...searchCriteria,
+        unifiedSearch: searchQuery,
+      };
+      setSearchCriteria(searchCriteriaCopy);
+      onSearchChange(searchCriteriaCopy);
+    }
+  };
+
+  const handleSearchClick = () => {
+    if (searchQuery.length >= 3) {
+      const recentSearches = getRecentSearches();
+
+      const updatedSearches = [
+        searchQuery,
+        ...recentSearches.filter((term) => term !== searchQuery),
+      ].slice(0, 10);
+      localStorage.setItem('recentSearches', JSON.stringify(updatedSearches));
+
+      const searchCriteriaCopy = {
+        ...searchCriteria,
+        unifiedSearch: searchQuery,
+      };
+      setSearchCriteria(searchCriteriaCopy);
+      onSearchChange(searchCriteriaCopy);
+    }
   };
 
   const handleVoiceSearch = () => {
@@ -237,6 +327,26 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
     });
   };
 
+  const getRecentSearches = (): string[] => {
+    const storedSearches = localStorage.getItem('recentSearches');
+    return storedSearches ? JSON.parse(storedSearches) : [];
+  };
+
+  const handleChipClick = (term: string) => {
+    setSearchQuery(term);
+  };
+
+  const handleClearSearch = () => {
+    setSearchQuery('');
+    setFilteredSearches([]);
+    const searchCriteriaCopy = {
+      ...searchCriteria,
+      unifiedSearch: '',
+    };
+    setSearchCriteria(searchCriteriaCopy);
+    onSearchChange(searchCriteriaCopy);
+  };
+
   return (
     <Box>
       {/* Unified Search and Tune buttons side by side */}
@@ -248,9 +358,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
           flexDirection: 'row',
         }}
       >
-        <Stack direction="row" spacing={2} sx={{ mb: 2 }}>
+        <Stack direction="row" spacing={2} sx={{ mb: 2, width: '100%' }}>
           <Paper
-            component="form"
+            component="div"
             sx={{
               display: 'flex',
               alignItems: 'center',
@@ -266,8 +376,25 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
               inputProps={{ 'aria-label': 'search' }}
               value={searchQuery}
               onChange={handleInputChange}
+              onKeyUp={handleKeyPress}
             />
-            <IconButton type="submit" sx={{ p: '10px' }} aria-label="search">
+            {searchQuery && searchQuery.length > 0 && (
+              <IconButton
+                type="submit"
+                sx={{ p: '10px' }}
+                aria-label="search"
+                onClick={handleClearSearch}
+              >
+                <Cancel />
+              </IconButton>
+            )}
+
+            <IconButton
+              type="submit"
+              sx={{ p: '10px' }}
+              aria-label="search"
+              onClick={handleSearchClick}
+            >
               <Search />
             </IconButton>
             <IconButton
@@ -291,13 +418,45 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
           </IconButton>
         </Stack>
       </Box>
+      <Box>
+        {filteredSearches.length > 0 && (
+          <div className="chip-container">
+            {filteredSearches.map((item, index) => (
+              <div
+                key={index}
+                className="chip"
+                onClick={() => handleChipClick(item.originalTerm)}
+              >
+                {/* Display the matching text with highlight */}
+                {item.originalTerm
+                  .split(item.matchedText)
+                  .map((part, i, arr) => (
+                    <span key={i}>
+                      {part}
+                      {i < arr.length - 1 && (
+                        <span style={{ backgroundColor: 'yellow' }}>
+                          {item.matchedText}
+                        </span>
+                      )}
+                    </span>
+                  ))}
+              </div>
+            ))}
+          </div>
+        )}
+      </Box>
 
       <Box
         sx={{
           mb: 2,
         }}
       >
-        <Typography variant="body1">Applied Filters:</Typography>
+        <Typography
+          variant="h6"
+          sx={{ marginBottom: 3, fontSize: '1rem !important', fontWeight: 600, color: 'primary.main' }}
+        >
+          Applied Filters:
+        </Typography>
         {showAppliedFilters && (
           <Stack direction="row" spacing={1} flexWrap="wrap">
             {getSelectedFilters().map((filter, index) => (
