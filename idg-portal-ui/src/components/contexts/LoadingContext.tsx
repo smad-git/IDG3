@@ -26,8 +26,7 @@ export const LoadingProvider: React.FC<LoadingProviderProps> = ({
         isLoading && (
           <div className="loading-overlay">
             <div className="loading-container">
-              Loading...
-              {/* <img src={loadingGif} alt="Loading..." className="loading-gif" /> */}
+               <img src={`/loading.svg`} alt="Loading..." className="loading-gif" /> 
             </div>
           </div>
         )

@@ -1,6 +1,9 @@
 import React, { createContext, useMemo, useState, useContext, ReactNode } from 'react';
 import { createTheme, ThemeProvider, CssBaseline } from '@mui/material';
 import { REGISTERED_THEMES, ThemeType } from '../common/themes/RegisterTheme';
+import { GlobalStyles } from '@mui/system';
+import { globalScrollbarStyles } from '../common/themes/globalScrollbarStyles';
+
 
 interface ThemeContextProps {
   currentTheme: ThemeType;
@@ -34,6 +37,7 @@ export const ThemeContextProvider: React.FC<ThemeContextProviderProps> = ({ chil
     <ThemeContext.Provider value={{ currentTheme, setTheme }}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
+        <GlobalStyles styles={globalScrollbarStyles} />
         {children}
       </ThemeProvider>
     </ThemeContext.Provider>
