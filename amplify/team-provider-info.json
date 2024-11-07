@@ -15,7 +15,7 @@
       "function": {
         "patientMigration": {
           "deploymentBucketName": "amplify-idg3dev-dev-dccb7-deployment",
-          "s3Key": "amplify-builds/patientMigration-423467586c5337694b50-build.zip"
+          "s3Key": "amplify-builds/patientMigration-7536566a70454c434858-build.zip"
         },
         "idg3devlambdalayer": {
           "deploymentBucketName": "amplify-idg3dev-dev-dccb7-deployment",
@@ -23,7 +23,7 @@
         },
         "populatePatients": {
           "deploymentBucketName": "amplify-idg3dev-dev-dccb7-deployment",
-          "s3Key": "amplify-builds/populatePatients-394259474e6665773257-build.zip"
+          "s3Key": "amplify-builds/populatePatients-55312f73654130386d76-build.zip"
         },
         "migratePatients": {
           "deploymentBucketName": "amplify-idg3dev-dev-dccb7-deployment",
