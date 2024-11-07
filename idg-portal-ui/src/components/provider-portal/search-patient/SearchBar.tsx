@@ -169,9 +169,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
     if (e.key === 'Enter' && searchQuery.length >= 3) {
       const recentSearches = getRecentSearches();
       const updatedSearches = [
-        searchQuery,
+        searchQuery.trim(),
         ...recentSearches.filter(
-          (term) => term.toLocaleLowerCase() !== searchQuery.toLocaleLowerCase()
+          (term) => term.toLocaleLowerCase().trim() !== searchQuery.toLocaleLowerCase().trim()
         ),
       ];
       localStorage.setItem('recentSearches', JSON.stringify(updatedSearches));

@@ -101,12 +101,16 @@ export const PatientSearch: React.FC<PropsWithChildren> = () => {
   const onSearchChange = (updatedFilters: SearchCriteria) => {
     setFilters(updatedFilters);
     const filteredData = Object.fromEntries(
-      Object.entries(updatedFilters).filter(
-        ([key, value]) =>
-          value !== '' &&
+      Object.entries(updatedFilters)
+        .filter(([key, value]) =>
           value !== null &&
-          (Array.isArray(value) ? value.some((v) => v !== null) : true)
-      )
+          value !== '' &&
+          (typeof value === 'string' ? value.trim() !== '' : true) &&
+          (Array.isArray(value) ? value.some(v => v !== null) : true)
+        )
+        .map(([key, value]) => 
+          [key, Array.isArray(value) ? value.map(v => typeof v === 'string' ? v.trim() : v) : (typeof value === 'string' ? value.trim() : value)]
+        )
     );
     patientSearch(filteredData, page);
   };

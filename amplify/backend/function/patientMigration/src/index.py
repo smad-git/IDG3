@@ -1,6 +1,6 @@
 import json
 from sqlalchemy.orm import sessionmaker, joinedload
-from sqlalchemy import create_engine, or_
+from sqlalchemy import create_engine, or_, func
 from sqlalchemy.exc import SQLAlchemyError
 from patient_shared_functions.db_client import DatabaseConnectionPool
 import logging
@@ -57,6 +57,7 @@ def build_search_query(filters, session):
             query = query.filter(or_(
                 Patient.first_name.ilike(search_term),
                 Patient.last_name.ilike(search_term),
+                func.concat(Patient.first_name, ' ', Patient.last_name).ilike(search_term),  # Full name search
                 Patient.email.ilike(search_term),
                 Patient.address.ilike(search_term),
                 Encounter.reason.ilike(search_term),
