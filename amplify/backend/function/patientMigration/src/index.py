@@ -47,62 +47,46 @@ def build_search_query(filters, session):
         .outerjoin(Medication, Encounter.id == Medication.encounter_id)\
         .distinct(Patient.id)  # Ensure distinct patients are selected
 
-    # Step 1: Apply unified search filter first, excluding 'reason' and 'address'
-    if 'unifiedSearch' in filters:
-        search_term = f"%{filters['unifiedSearch']}%"
-        query = query.filter(or_(
-            Patient.first_name.ilike(search_term),
-            Patient.last_name.ilike(search_term),
-            Patient.email.ilike(search_term),
-            Condition.condition_code.ilike(search_term),
-            Medication.medication_name.ilike(search_term)
-        ))
-
-    # Step 2: Apply date range filter for encounters
-    if 'encounterDateRange' in filters and isinstance(filters['encounterDateRange'], dict):
-        date_range = filters['encounterDateRange']
-        start_date = date_range.get('startDate')
-        end_date = date_range.get('endDate')
-
-        if start_date:
-            # Convert to datetime if the value is in string format
-            if isinstance(start_date, str):
-                start_date = datetime.strptime(start_date, '%Y-%m-%d')
-            # Filter encounters with date greater than or equal to start date
-            query = query.filter(Encounter.encounter_date >= start_date)
-
-        if end_date:
-            # Convert to datetime if the value is in string format
-            if isinstance(end_date, str):
-                end_date = datetime.strptime(end_date, '%Y-%m-%d')
-            # Filter encounters with date less than or equal to end date
-            query = query.filter(Encounter.encounter_date <= end_date)
-
-    # Step 3: Apply other filters (for patient/encounter fields)
     for field, value in filters.items():
-        if field == 'unifiedSearch' or field == 'encounterDateRange':
-            # Skip as they're already processed
-            continue
-        elif hasattr(Patient, field):
+        # Convert camelCase to snake_case
+        snake_case_field = FIELD_MAP.get(field, field)
+
+        if field == 'unifiedSearch':
+            # Perform a unified search across multiple fields with ilike
+            search_term = f"%{value}%"
+            query = query.filter(or_(
+                Patient.first_name.ilike(search_term),
+                Patient.last_name.ilike(search_term),
+                Patient.email.ilike(search_term),
+                Patient.address.ilike(search_term),
+                Encounter.reason.ilike(search_term),
+                Condition.condition_code.ilike(search_term),
+                Medication.medication_name.ilike(search_term)
+            ))
+        elif hasattr(Patient, snake_case_field):
+            # Apply ilike for string-based fields
             if isinstance(value, str):
-                query = query.filter(getattr(Patient, field).ilike(f"%{value}%"))
+                query = query.filter(getattr(Patient, snake_case_field).ilike(f"%{value}%"))
             else:
-                query = query.filter(getattr(Patient, field) == value)
-        elif hasattr(Encounter, field):
+                query = query.filter(getattr(Patient, snake_case_field) == value)
+        elif hasattr(Encounter, snake_case_field):
+            # Apply ilike for string-based fields
             if isinstance(value, str):
-                query = query.filter(getattr(Encounter, field).ilike(f"%{value}%"))
+                query = query.filter(getattr(Encounter, snake_case_field).ilike(f"%{value}%"))
             else:
-                query = query.filter(getattr(Encounter, field) == value)
-        elif hasattr(Condition, field):
+                query = query.filter(getattr(Encounter, snake_case_field) == value)
+        elif hasattr(Condition, snake_case_field):
+            # Apply ilike for string-based fields
             if isinstance(value, str):
-                query = query.filter(getattr(Condition, field).ilike(f"%{value}%"))
+                query = query.filter(getattr(Condition, snake_case_field).ilike(f"%{value}%"))
             else:
-                query = query.filter(getattr(Condition, field) == value)
-        elif hasattr(Medication, field):
+                query = query.filter(getattr(Condition, snake_case_field) == value)
+        elif hasattr(Medication, snake_case_field):
+            # Apply ilike for string-based fields
             if isinstance(value, str):
-                query = query.filter(getattr(Medication, field).ilike(f"%{value}%"))
+                query = query.filter(getattr(Medication, snake_case_field).ilike(f"%{value}%"))
             else:
-                query = query.filter(getattr(Medication, field) == value)
+                query = query.filter(getattr(Medication, snake_case_field) == value)
 
     return query
 
