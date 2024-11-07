@@ -256,6 +256,11 @@ const PatientsGrid: React.FC<PatientsListProps> = ({
                                 xs={12}
                                 sm={6}
                                 key={encounter.encounterId}
+                                sx={{
+                                  display: 'flex',
+                                  flexDirection: 'column',
+                                  height: '100%',
+                                }} // Ensure the grid item takes up full height
                               >
                                 <Card
                                   sx={{
@@ -263,7 +268,7 @@ const PatientsGrid: React.FC<PatientsListProps> = ({
                                     boxShadow: 3,
                                     display: 'flex',
                                     flexDirection: 'column',
-                                    minHeight: '200px', // Ensure a consistent minimum height for all cards
+                                    height: '100%', // Make sure the card fills the grid item
                                   }}
                                 >
                                   <CardContent sx={{ flex: 1 }}>
