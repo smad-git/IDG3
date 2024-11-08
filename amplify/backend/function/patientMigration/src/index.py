@@ -51,11 +51,13 @@ def build_search_query(filters, session):
     # Check if 'unifiedSearch' is in filters and handle it first
     if 'unifiedSearch' in filters:
         search_term = f"%{filters['unifiedSearch']}%"
-        print(f"Applying unified search for: {search_term}")
         query = query.filter(or_(
             Patient.first_name.ilike(search_term),
             Patient.last_name.ilike(search_term),
             Patient.email.ilike(search_term),
+            Patient.status.ilike(search_term),
+            Patient.race.ilike(search_term),
+            Patient.gender.ilike(search_term),
             Patient.address.ilike(search_term),
             func.concat(Patient.first_name, ' ', Patient.last_name).ilike(search_term),  # Full name search
             Encounter.reason.ilike(search_term),
@@ -125,7 +127,6 @@ def build_search_query(filters, session):
                 query = query.filter(getattr(Medication, snake_case_field).ilike(f"%{value}%"))
             else:
                 query = query.filter(getattr(Medication, snake_case_field) == value)
-    print(query)
     return query
 
 # Apply pagination to the query

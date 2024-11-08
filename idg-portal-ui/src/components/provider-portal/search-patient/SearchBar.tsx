@@ -388,7 +388,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
           >
             <InputBase
               sx={{ ml: 1, flex: 1 }}
-              placeholder="Search by Patient Name, email, medication, address, conditions, reason..."
+              placeholder="Search by Patient Name, status, gender, race, email, medication, address, conditions, reason..."
               inputProps={{ 'aria-label': 'search' }}
               value={searchQuery}
               onChange={handleInputChange}
