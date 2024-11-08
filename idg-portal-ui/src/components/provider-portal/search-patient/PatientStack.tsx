@@ -35,7 +35,7 @@ const PatientStack: React.FC<PatientsListProps> = ({
   };
 
   return (
-    <Box sx={{ padding: 3 }}>
+    <Box sx={{ padding: 1 }}>
       <Typography
         variant="h5"
         sx={{

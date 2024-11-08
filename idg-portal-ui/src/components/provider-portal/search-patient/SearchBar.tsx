@@ -204,6 +204,13 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
       };
       setSearchCriteria(searchCriteriaCopy);
       onSearchChange(searchCriteriaCopy);
+    } else if (!searchQuery) {
+      const searchCriteriaCopy = {
+        ...searchCriteria,
+        unifiedSearch: '',
+      };
+      setSearchCriteria(searchCriteriaCopy);
+      onSearchChange(searchCriteriaCopy);
     }
   };
 
@@ -381,7 +388,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
           >
             <InputBase
               sx={{ ml: 1, flex: 1 }}
-              placeholder="Search by Patient Name, conditions..."
+              placeholder="Search by Patient Name, email, medication, address, conditions, reason..."
               inputProps={{ 'aria-label': 'search' }}
               value={searchQuery}
               onChange={handleInputChange}
@@ -435,24 +442,24 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
           />
         )}
       </Box>
-
-      <Box
-        sx={{
-          mb: 2,
-        }}
-      >
-        <Typography
-          variant="h6"
+      {showAppliedFilters && (
+        <Box
           sx={{
-            marginBottom: 3,
-            fontSize: '1rem !important',
-            fontWeight: 600,
-            color: `${theme.palette.mode === 'dark' ? '#fff' : theme.palette.primary.main}`,
+            mb: 2,
           }}
         >
-          Applied Filters:
-        </Typography>
-        {showAppliedFilters && (
+          <Typography
+            variant="h6"
+            sx={{
+              marginBottom: 3,
+              fontSize: '1rem !important',
+              fontWeight: 600,
+              color: `${theme.palette.mode === 'dark' ? '#fff' : theme.palette.primary.main}`,
+            }}
+          >
+            Applied Filters:
+          </Typography>
+
           <Stack direction="row" spacing={1} flexWrap="wrap">
             {getSelectedFilters().map((filter, index) => (
               <Chip
@@ -467,9 +474,8 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearchChange }) => {
               />
             ))}
           </Stack>
-        )}
-      </Box>
-
+        </Box>
+      )}
       {/* Drawer for Advanced Search with only filter fields */}
       <Drawer
         open={drawerOpen}

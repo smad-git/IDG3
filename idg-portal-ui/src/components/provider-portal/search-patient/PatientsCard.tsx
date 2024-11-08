@@ -4,16 +4,23 @@ import {
   CardContent,
   Typography,
   Box,
-  Container,
+
   Pagination,
+  useTheme,
 } from '@mui/material';
 import { PatientsListProps } from './Patients';
 import _ from 'lodash';
 
-const ITEMS_PER_PAGE = 100; // Customize the number of items per page
+const ITEMS_PER_PAGE = 20; // Customize the number of items per page
 
-const PatientsCard: React.FC<PatientsListProps> = ({ patients, totalCount, page, onPageChange }) => {
- 
+const PatientsCard: React.FC<PatientsListProps> = ({
+  patients,
+  totalCount,
+  page,
+  onPageChange,
+}) => {
+
+  const theme = useTheme();
   // Pagination logic
   const handlePageChange = (
     event: React.ChangeEvent<unknown>,
@@ -49,6 +56,16 @@ const PatientsCard: React.FC<PatientsListProps> = ({ patients, totalCount, page,
 
   return (
     <>
+      <Typography
+        variant="h5"
+        sx={{
+          marginBottom: 2,
+          fontWeight: 600,
+          color: `${theme.palette.mode === 'dark' ? '#fff' : theme.palette.primary.main}`,
+        }}
+      >
+        Patient Search Results
+      </Typography>
       {sortedPatients.length > 0 ? (
         <Box
           sx={{
@@ -171,7 +188,7 @@ const PatientsCard: React.FC<PatientsListProps> = ({ patients, totalCount, page,
           })}
         </Box>
       ) : (
-        <Box sx={{display: 'flex', width: '100%', flexGrow: 1}}>
+        <Box sx={{ display: 'flex', width: '100%', flexGrow: 1 }}>
           <Card
             sx={{
               padding: { xs: 2, sm: 2, md: 2 },
@@ -192,7 +209,6 @@ const PatientsCard: React.FC<PatientsListProps> = ({ patients, totalCount, page,
           </Card>
         </Box>
       )}
-
       {/* Pagination Component */}
       {patients.length > 0 && (
         <Box mt={4} display="flex" justifyContent="center">
